@@ -1,0 +1,8 @@
+---
+naslov_sr: "Pokrenut novi projekat čiste vode u Lijevče polju"
+naslov_en: "New Water Project Launched in Lijevče Polje"
+datum: "2025-02-10"
+ikona: "🌊"
+opis_sr: "Naš klub se udružio s lokalnim opštinama kako bi donio infrastrukturu čiste vode u pet sela u oblasti Lijevče polja. Očekuje se da će projekat koristiti više od 1.200 stanovnika."
+opis_en: "Our club has partnered with local municipalities to bring clean water infrastructure to five villages in the Lijevče Polje area, benefiting over 1,200 residents."
+---
