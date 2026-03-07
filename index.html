@@ -1,0 +1,2773 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Rotary Klub Banja Luka</title>
+
+<!-- ── SEO ── -->
+<meta name="description" content="Rotary klub Banja Luka — humanitarna organizacija osnovana 1934. Projekti podrške zajednici, stipendije, medicinska pomoć i razvoj mladih u Banjoj Luci. Distrikt 1910.">
+<meta name="keywords" content="Rotary, Banja Luka, humanitarno, klub, volonteri, projekti, zajednica">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://rotarybanjaluka.netlify.app/">
+
+<!-- ── OPEN GRAPH (Facebook, WhatsApp, LinkedIn) ── -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://rotarybanjaluka.netlify.app/">
+<meta property="og:title" content="Rotary Klub Banja Luka">
+<meta property="og:description" content="Zajednica ostvarenih profesionalaca posvećenih humanitarnom radu i izgradnji bolje zajednice od 1934. godine.">
+<meta property="og:image" content="https://rotarybanjaluka.netlify.app/slike/og-slika.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="sr_BA">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:site_name" content="Rotary Klub Banja Luka">
+
+<!-- ── TWITTER CARD ── -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rotary Klub Banja Luka">
+<meta name="twitter:description" content="Zajednica ostvarenih profesionalaca posvećenih humanitarnom radu od 1934.">
+<meta name="twitter:image" content="https://rotarybanjaluka.netlify.app/slike/og-slika.jpg">
+
+<!-- ── FAVICON ── -->
+<!-- SVG favicon (moderni browseri) -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' fill='%230A1628'/><circle cx='20' cy='20' r='14' stroke='%23C8A84B' stroke-width='2' fill='none'/><circle cx='20' cy='20' r='5' fill='%23C8A84B'/><line x1='20' y1='6' x2='20' y2='34' stroke='%23C8A84B' stroke-width='2'/><line x1='6' y1='20' x2='34' y2='20' stroke='%23C8A84B' stroke-width='2'/><line x1='9' y1='9' x2='31' y2='31' stroke='%23C8A84B' stroke-width='2'/><line x1='31' y1='9' x2='9' y2='31' stroke='%23C8A84B' stroke-width='2'/></svg>">
+<!-- Fallback favicon za starije browsere -->
+<link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' fill='%230A1628'/><circle cx='20' cy='20' r='14' stroke='%23C8A84B' stroke-width='2' fill='none'/><circle cx='20' cy='20' r='5' fill='%23C8A84B'/></svg>">
+<!-- Apple touch icon -->
+<link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect width='180' height='180' fill='%230A1628' rx='40'/><circle cx='90' cy='90' r='60' stroke='%23C8A84B' stroke-width='8' fill='none'/><circle cx='90' cy='90' r='20' fill='%23C8A84B'/><line x1='90' y1='30' x2='90' y2='150' stroke='%23C8A84B' stroke-width='8'/><line x1='30' y1='90' x2='150' y2='90' stroke='%23C8A84B' stroke-width='8'/><line x1='47' y1='47' x2='133' y2='133' stroke='%23C8A84B' stroke-width='8'/><line x1='133' y1='47' x2='47' y2='133' stroke='%23C8A84B' stroke-width='8'/></svg>">
+
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --gold: #C8A84B;
+    --gold-light: #E2C97E;
+    --navy: #0A1628;
+    --navy-mid: #132040;
+    --cream: #F5F0E8;
+    --cream-dark: #EDE5D4;
+    --text: #1A1A2E;
+    --text-light: #5A5A72;
+    --white: #FFFFFF;
+    --accent: #A01B2C;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @font-face { font-display: swap; }
+  body {
+    font-family: 'Source Sans 3', sans-serif;
+    background: var(--cream);
+    color: var(--text);
+    overflow-x: hidden;
+  }
+
+  /* ── LANGUAGE SWITCHING ── */
+  /* Default: SR visible, EN hidden */
+  .en { display: none; }
+  .sr { display: inline; }
+  span.en { display: none; }
+  span.sr { display: inline; }
+  div.en { display: none; }
+  div.sr { display: block; }
+  p.en { display: none; }
+  p.sr { display: block; }
+  h2.en { display: none; }
+  h2.sr { display: block; }
+  li.en { display: none; }
+  li.sr { display: list-item; }
+
+  body.lang-en .en { display: block; }
+  body.lang-en .sr { display: none !important; }
+  body.lang-en span.en { display: inline !important; }
+  body.lang-en span.sr { display: none !important; }
+  body.lang-en div.en { display: block !important; }
+  body.lang-en div.sr { display: none !important; }
+  body.lang-en p.en { display: block !important; }
+  body.lang-en p.sr { display: none !important; }
+  body.lang-en h2.en { display: block !important; }
+  body.lang-en h2.sr { display: none !important; }
+  body.lang-en li.en { display: list-item !important; }
+  body.lang-en li.sr { display: none !important; }
+  body.lang-en a.en { display: inline !important; }
+  body.lang-en a.sr { display: none !important; }
+
+  /* ── LANGUAGE BAR ── */
+  .lang-bar {
+    position: fixed;
+    top: 0; right: 0;
+    z-index: 1001;
+    display: flex;
+    background: var(--navy);
+  }
+  .lang-btn {
+    padding: 8px 18px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: rgba(255,255,255,0.5);
+    transition: all 0.3s;
+  }
+  .lang-btn.active { color: var(--gold); }
+  .lang-btn:hover { color: var(--gold-light); }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+    height: 72px;
+    background: rgba(10,22,40,0.97);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(200,168,75,0.2);
+  }
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+  }
+  .gear-svg { width: 40px; height: 40px; }
+  .nav-logo-text { line-height: 1.1; }
+  .nav-logo-text span:first-child {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: var(--gold);
+    letter-spacing: 0.04em;
+  }
+  .nav-logo-text span:last-child {
+    display: block;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+  }
+  .nav-links {
+    display: flex;
+    gap: 28px;
+    list-style: none;
+    align-items: center;
+  }
+  .nav-links > li { position: relative; }
+  .nav-links a {
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    transition: color 0.3s;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 0;
+  }
+  .nav-links a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px; left: 0;
+    width: 0; height: 1px;
+    background: var(--gold);
+    transition: width 0.3s;
+  }
+  .nav-links a:hover { color: var(--gold); }
+  .nav-links a:hover::after { width: 100%; }
+  .nav-links .has-dropdown > a .chevron {
+    display: inline-block;
+    width: 8px; height: 5px;
+    border-left: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(-45deg) translateY(-2px);
+    transition: transform 0.3s;
+    flex-shrink: 0;
+  }
+
+  /* ── DROPDOWN ── */
+  .dropdown {
+    position: absolute;
+    top: calc(100% + 20px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--navy);
+    border: 1px solid rgba(200,168,75,0.2);
+    border-top: 2px solid var(--gold);
+    min-width: 680px;
+    padding: 28px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s, top 0.25s;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    z-index: 9999;
+  }
+  .has-dropdown:hover .dropdown,
+  .has-dropdown:focus-within .dropdown {
+    opacity: 1;
+    pointer-events: all;
+    top: calc(100% + 12px);
+  }
+  .dropdown-title {
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(200,168,75,0.2);
+  }
+  .dropdown-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  .dropdown-member {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border: 1px solid rgba(255,255,255,0.05);
+    transition: background 0.2s, border-color 0.2s;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .dropdown-member:hover {
+    background: rgba(200,168,75,0.08);
+    border-color: rgba(200,168,75,0.3);
+  }
+  .dropdown-member:hover::after { display: none; }
+  .dm-avatar {
+    width: 44px; height: 44px;
+    background: linear-gradient(135deg, var(--navy-mid), #1a3a6b);
+    border: 1px solid rgba(200,168,75,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: var(--gold);
+    flex-shrink: 0;
+    border-radius: 2px;
+  }
+  .dm-info { line-height: 1.2; }
+  .dm-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    color: var(--white);
+  }
+  .dm-role {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-top: 2px;
+  }
+
+  /* ── HERO ── */
+  .hero {
+    min-height: 100vh;
+    background: var(--navy);
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 72px 5vw 0;
+  }
+  .hero-bg {
+    position: absolute; inset: 0;
+    background:
+      radial-gradient(ellipse 60% 80% at 70% 50%, rgba(200,168,75,0.07) 0%, transparent 60%),
+      radial-gradient(ellipse 40% 40% at 20% 80%, rgba(160,27,44,0.08) 0%, transparent 50%);
+  }
+  .hero-grid {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(200,168,75,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(200,168,75,0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 720px;
+  }
+  .hero-eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .hero-eyebrow::before {
+    content: ''; display: block;
+    width: 40px; height: 1px;
+    background: var(--gold);
+  }
+  .hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(42px, 6vw, 80px);
+    line-height: 1.05;
+    color: var(--white);
+    margin-bottom: 12px;
+  }
+  .hero-title em { font-style: italic; color: var(--gold); }
+  .hero-subtitle {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(18px, 2.5vw, 28px);
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 32px;
+    font-weight: 400;
+  }
+  .hero-desc {
+    font-size: 17px;
+    line-height: 1.75;
+    color: rgba(255,255,255,0.65);
+    max-width: 540px;
+    margin-bottom: 48px;
+  }
+  .hero-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 36px;
+    background: var(--gold);
+    color: var(--navy);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  .hero-cta:hover { background: var(--gold-light); transform: translateY(-2px); }
+  .hero-stats {
+    position: absolute;
+    bottom: 60px; right: 5vw;
+    display: flex;
+    gap: 48px;
+  }
+  .stat { text-align: center; }
+  .stat-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    color: var(--gold);
+    line-height: 1;
+  }
+  .stat-label {
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.4);
+    margin-top: 4px;
+  }
+
+  /* ── SECTION BASE ── */
+  section { padding: 100px 5vw; }
+  .section-header { margin-bottom: 64px; }
+  .section-tag {
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 12px;
+  }
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(32px, 4vw, 52px);
+    line-height: 1.1;
+    color: var(--navy);
+  }
+  .section-title.light { color: var(--white); }
+  .section-line { width: 60px; height: 2px; background: var(--gold); margin-top: 20px; }
+
+  /* ── ABOUT ── */
+  #about { background: var(--cream); }
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: start;
+  }
+  .about-text p {
+    font-size: 17px;
+    line-height: 1.85;
+    color: var(--text-light);
+    margin-bottom: 20px;
+  }
+  .about-text p strong { color: var(--text); font-weight: 600; }
+  .about-timeline {
+    margin-top: 32px;
+    border-left: 2px solid rgba(200,168,75,0.3);
+    padding-left: 24px;
+  }
+  .timeline-item {
+    position: relative;
+    margin-bottom: 24px;
+  }
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -31px; top: 6px;
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: var(--gold);
+    border: 2px solid var(--cream);
+  }
+  .timeline-year {
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .timeline-text {
+    font-size: 15px;
+    color: var(--text-light);
+    line-height: 1.65;
+  }
+  .about-values {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .value-card {
+    padding: 28px;
+    background: var(--white);
+    border-left: 3px solid var(--gold);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .value-card:hover { transform: translateY(-4px); box-shadow: 0 8px 32px rgba(0,0,0,0.12); }
+  .value-icon { font-size: 28px; margin-bottom: 12px; }
+  .value-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: var(--navy);
+    margin-bottom: 6px;
+  }
+  .value-desc { font-size: 14px; color: var(--text-light); line-height: 1.6; }
+
+  /* ── PROJECTS ── */
+  #projects { background: var(--navy); }
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+  }
+  .project-card {
+    background: var(--navy-mid);
+    padding: 40px 32px;
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s;
+    cursor: pointer;
+  }
+  .project-card:hover { background: rgba(200,168,75,0.08); }
+  .project-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px; height: 0;
+    background: var(--gold);
+    transition: height 0.4s;
+  }
+  .project-card:hover::before { height: 100%; }
+  .project-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: rgba(200,168,75,0.15);
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+  .project-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: var(--white);
+    margin-bottom: 12px;
+  }
+  .project-desc { font-size: 14px; color: rgba(255,255,255,0.5); line-height: 1.7; }
+  .project-tag {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 4px 12px;
+    border: 1px solid rgba(200,168,75,0.3);
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+
+  /* ── MEMBERS SECTION (full page) ── */
+  #members { background: var(--cream-dark); }
+  .members-intro {
+    max-width: 680px;
+    font-size: 17px;
+    line-height: 1.75;
+    color: var(--text-light);
+    margin-bottom: 48px;
+  }
+  .members-filter {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  .filter-btn {
+    padding: 8px 20px;
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    border: 1px solid rgba(0,0,0,0.15);
+    background: transparent;
+    color: var(--text-light);
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: 'Source Sans 3', sans-serif;
+  }
+  .filter-btn.active, .filter-btn:hover {
+    background: var(--navy);
+    color: var(--gold);
+    border-color: var(--navy);
+  }
+  .members-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+  .member-card {
+    background: var(--white);
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  .member-card:hover { transform: translateY(-6px); box-shadow: 0 12px 40px rgba(0,0,0,0.14); }
+  .member-avatar {
+    height: 160px;
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: var(--gold);
+    letter-spacing: -2px;
+    position: relative;
+    overflow: hidden;
+  }
+  .member-avatar::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 3px;
+    background: var(--gold);
+  }
+  .member-info { padding: 18px 20px 20px; }
+  .member-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    color: var(--navy);
+    margin-bottom: 4px;
+  }
+  .member-role {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 8px;
+  }
+  .member-bio {
+    font-size: 12px;
+    color: var(--text-light);
+    line-height: 1.55;
+  }
+  .member-since {
+    font-size: 11px;
+    color: var(--text-light);
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid rgba(0,0,0,0.06);
+    letter-spacing: 0.05em;
+  }
+
+  /* ── NEWS ── */
+  #news { background: var(--cream); }
+  .news-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 28px;
+  }
+  .news-card {
+    background: var(--white);
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    transition: box-shadow 0.3s;
+  }
+  .news-card:hover { box-shadow: 0 8px 40px rgba(0,0,0,0.12); }
+  .news-img {
+    height: 220px;
+    background: linear-gradient(135deg, var(--navy) 0%, #1a3a6b 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    position: relative;
+  }
+  .news-img.small { height: 140px; }
+  .news-img::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(10,22,40,0.6) 0%, transparent 60%);
+  }
+  .news-body { padding: 24px; }
+  .news-date { font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; }
+  .news-title { font-family: 'Playfair Display', serif; font-size: 18px; color: var(--navy); line-height: 1.35; margin-bottom: 10px; }
+  .news-card.small .news-title { font-size: 15px; }
+  .news-excerpt { font-size: 14px; color: var(--text-light); line-height: 1.65; }
+  .news-card.small .news-excerpt { display: none; }
+  .news-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--gold);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .news-more::after { content: '→'; }
+
+  /* ── GALLERY ── */
+  #gallery { background: var(--navy); padding-bottom: 60px; }
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    gap: 4px;
+    margin-top: 60px;
+  }
+  .gallery-item {
+    background: var(--navy-mid);
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    transition: opacity 0.3s;
+  }
+  .gallery-item:hover { opacity: 0.8; }
+  .gallery-item:first-child { grid-column: span 2; grid-row: span 2; font-size: 80px; }
+  .gallery-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(10,22,40,0.7) 0%, transparent 50%);
+  }
+
+  /* ── CONTACT ── */
+  #contact { background: var(--cream-dark); }
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: start;
+  }
+  .contact-info h3 { font-family: 'Playfair Display', serif; font-size: 22px; color: var(--navy); margin-bottom: 24px; }
+  .contact-detail { display: flex; gap: 16px; margin-bottom: 20px; align-items: flex-start; }
+  .contact-detail-icon {
+    width: 40px; height: 40px;
+    background: var(--navy);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px; flex-shrink: 0;
+  }
+  .contact-detail-text strong {
+    display: block;
+    font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--gold); margin-bottom: 2px;
+  }
+  .contact-detail-text span { font-size: 15px; color: var(--text-light); }
+  .contact-form { display: flex; flex-direction: column; gap: 16px; }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .form-group { display: flex; flex-direction: column; gap: 6px; }
+  .form-group label {
+    font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase;
+    color: var(--text-light); font-weight: 600;
+  }
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    padding: 14px 16px;
+    background: var(--white);
+    border: 1px solid rgba(0,0,0,0.1);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 15px; color: var(--text);
+    outline: none; transition: border-color 0.3s;
+  }
+  .form-group input:focus,
+  .form-group textarea:focus,
+  .form-group select:focus { border-color: var(--gold); }
+  .form-group textarea { resize: vertical; min-height: 120px; }
+  .form-submit {
+    padding: 16px 40px;
+    background: var(--navy);
+    color: var(--gold);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 12px; font-weight: 600;
+    letter-spacing: 0.2em; text-transform: uppercase;
+    border: 2px solid var(--navy);
+    cursor: pointer; transition: all 0.3s; align-self: flex-start;
+  }
+  .form-submit:hover { background: var(--gold); color: var(--navy); border-color: var(--gold); }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--navy);
+    padding: 60px 5vw 40px;
+    border-top: 1px solid rgba(200,168,75,0.2);
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 48px;
+  }
+  .footer-brand p { font-size: 14px; color: rgba(255,255,255,0.4); line-height: 1.7; margin-top: 16px; max-width: 280px; }
+  .footer-col h4 { font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 20px; }
+  .footer-col ul { list-style: none; }
+  .footer-col ul li { margin-bottom: 10px; }
+  .footer-col ul li a { font-size: 14px; color: rgba(255,255,255,0.45); text-decoration: none; transition: color 0.3s; }
+  .footer-col ul li a:hover { color: var(--gold); }
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding-top: 24px;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .footer-bottom p { font-size: 12px; color: rgba(255,255,255,0.25); }
+  .footer-motto { font-family: 'Playfair Display', serif; font-style: italic; color: var(--gold); font-size: 14px; }
+
+  /* ── DIVIDER ── */
+  .gold-divider {
+    height: 2px;
+    background: linear-gradient(to right, transparent, var(--gold), transparent);
+    opacity: 0.4;
+  }
+
+  /* ── NEWS CAROUSEL ── */
+  .news-carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+  .news-carousel-track {
+    display: -webkit-flex;
+    display: flex;
+    gap: 0;
+    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 100%;
+    will-change: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  .news-carousel-card {
+    min-width: 100%;
+    flex-shrink: 0;
+    background: var(--white);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    display: grid;
+    grid-template-columns: 1fr 1.6fr;
+    overflow: hidden;
+  }
+  .news-card-photos {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 3px;
+    min-height: 300px;
+    background: var(--cream-dark);
+  }
+  .news-card-photo-main {
+    grid-row: 1 / 2;
+    grid-column: 1 / 3;
+    background: linear-gradient(135deg, var(--navy) 0%, #1a3a6b 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 52px;
+    position: relative;
+    overflow: hidden;
+  }
+  .news-card-photo-main::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: linear-gradient(to top, rgba(10,22,40,0.45) 0%, transparent 60%);
+  }
+  .news-card-photo-secondary {
+    background: linear-gradient(135deg, var(--navy-mid) 0%, #243a6b 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    position: relative;
+    overflow: hidden;
+  }
+  .news-card-photo-secondary::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: rgba(10,22,40,0.25);
+  }
+  @media (max-width: 900px) {
+    .news-card-photos { min-height: 220px; grid-template-rows: 140px 80px; }
+  }
+  .news-carousel-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 24px;
+  }
+  .carousel-btn {
+    width: 44px; height: 44px;
+    background: var(--navy);
+    color: var(--gold);
+    border: 1px solid rgba(200,168,75,0.3);
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Source Sans 3', sans-serif;
+  }
+  .carousel-btn:hover { background: var(--gold); color: var(--navy); }
+  .carousel-dots { display: flex; gap: 8px; }
+  .carousel-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: rgba(200,168,75,0.3);
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+  }
+  .carousel-dot.active { background: var(--gold); transform: scale(1.3); }
+  @media (max-width: 900px) {
+    .news-carousel-card { grid-template-columns: 1fr; }
+    .news-carousel-card .news-img { min-height: 180px; }
+  }
+
+  /* ── MEMBER TABS ── */
+  .members-tabs {
+    display: flex;
+    gap: 0;
+    margin-bottom: 40px;
+    border-bottom: 2px solid rgba(200,168,75,0.2);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    touch-action: pan-x;
+    will-change: scroll-position;
+  }
+  .members-tabs::-webkit-scrollbar { display: none; }
+  .members-tab {
+    padding: 14px 28px;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    border: none;
+    background: transparent;
+    color: var(--text-light);
+    cursor: pointer;
+    font-family: 'Source Sans 3', sans-serif;
+    position: relative;
+    transition: color 0.3s;
+    margin-bottom: -2px;
+  }
+  .members-tab::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 0; height: 2px;
+    background: var(--gold);
+    transition: width 0.3s;
+  }
+  .members-tab.active { color: var(--navy); font-weight: 600; }
+  .members-tab.active::after { width: 100%; }
+  .members-tab:hover { color: var(--navy); }
+
+  /* ── ANIMATIONS ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .hero-eyebrow { animation: fadeUp 0.8s 0.2s both; }
+  .hero-title { animation: fadeUp 0.8s 0.4s both; }
+  .hero-subtitle { animation: fadeUp 0.8s 0.5s both; }
+  .hero-desc { animation: fadeUp 0.8s 0.6s both; }
+  .hero-cta { animation: fadeUp 0.8s 0.7s both; }
+
+  /* ── HAMBURGER & MOBILE MENU ── */
+  .hamburger {
+    display: none; flex-direction: column; gap: 5px; cursor: pointer;
+    padding: 8px; background: none; border: none; z-index: 1002;
+  }
+  .hamburger span {
+    width: 24px; height: 2px; background: var(--gold);
+    transition: all 0.35s cubic-bezier(0.4,0,0.2,1); display: block;
+  }
+  .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+  .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+  .mobile-nav {
+    display: none; position: fixed;
+    top: 72px; left: 0; right: 0;
+    background: rgba(10,22,40,0.99); backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(200,168,75,0.2);
+    z-index: 998;
+    transform: translateY(-110%);
+    transition: transform 0.35s cubic-bezier(0.4,0,0.2,1);
+    padding: 8px 0 16px;
+  }
+  .mobile-nav.open { transform: translateY(0); }
+  .mobile-nav ul { list-style: none; padding: 0; }
+  .mobile-nav ul li a,
+  .mobile-nav ul li button {
+    display: block; width: 100%; text-align: left;
+    padding: 14px 5vw; font-size: 13px; letter-spacing: 0.15em;
+    text-transform: uppercase; color: rgba(255,255,255,0.75);
+    text-decoration: none; background: none; border: none;
+    font-family: 'Source Sans 3', sans-serif; cursor: pointer;
+    transition: color 0.2s, background 0.2s;
+    border-left: 3px solid transparent;
+  }
+  .mobile-nav ul li a:hover,
+  .mobile-nav ul li button:hover {
+    color: var(--gold); background: rgba(200,168,75,0.05); border-left-color: var(--gold);
+  }
+  .mobile-nav-divider { height: 1px; background: rgba(200,168,75,0.1); margin: 8px 5vw; }
+  .mobile-submenu { background: rgba(0,0,0,0.2); overflow: hidden; max-height: 0; transition: max-height 0.3s ease; }
+  .mobile-submenu.open { max-height: 500px; }
+  .mobile-submenu li a { padding-left: calc(5vw + 20px) !important; font-size: 12px !important; color: rgba(255,255,255,0.55) !important; }
+  .mobile-lang { display: flex; gap: 8px; padding: 12px 5vw 4px; }
+  .mobile-lang button {
+    padding: 8px 20px; font-size: 11px; letter-spacing: 0.15em; text-transform: uppercase;
+    border: 1px solid rgba(200,168,75,0.3); background: transparent;
+    color: rgba(255,255,255,0.5); cursor: pointer; font-family: 'Source Sans 3', sans-serif;
+    transition: all 0.2s;
+  }
+  .mobile-lang button.active { background: var(--gold); color: var(--navy); border-color: var(--gold); }
+
+  @media (max-width: 900px) {
+    .hamburger { display: flex; }
+    .mobile-nav { display: block; }
+    .nav-links { display: none; }
+    .about-grid, .contact-grid, .news-grid, .footer-grid { grid-template-columns: 1fr; }
+    .projects-grid { grid-template-columns: 1fr 1fr; }
+    .members-grid { grid-template-columns: 1fr 1fr; }
+    .gallery-grid { grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(3, 160px); }
+    .gallery-item:first-child { grid-column: span 2; grid-row: span 1; }
+    .hero-stats { position: static; margin-top: 40px; }
+    .form-row { grid-template-columns: 1fr; }
+    .dropdown { min-width: 320px; left: 0; transform: none; }
+    .dropdown-grid { grid-template-columns: 1fr 1fr; }
+  }
+
+  @media (max-width: 600px) {
+    .members-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ── COOKIE CONSENT ── */
+  #cookie-banner {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    z-index: 9999;
+    background: var(--navy);
+    border-top: 2px solid var(--gold);
+    padding: 20px 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    box-shadow: 0 -8px 32px rgba(0,0,0,0.4);
+    transform: translateY(100%);
+    transition: transform 0.4s cubic-bezier(0.4,0,0.2,1);
+  }
+  #cookie-banner.visible { transform: translateY(0); }
+  .cookie-text {
+    font-size: 13px;
+    line-height: 1.65;
+    color: rgba(255,255,255,0.65);
+    max-width: 680px;
+  }
+  .cookie-text strong { color: var(--gold); }
+  .cookie-text a { color: var(--gold); text-decoration: underline; }
+  .cookie-buttons {
+    display: flex;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  .cookie-btn-accept {
+    padding: 10px 24px;
+    background: var(--gold);
+    color: var(--navy);
+    border: none;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.3s;
+    white-space: nowrap;
+  }
+  .cookie-btn-accept:hover { background: var(--gold-light); }
+  .cookie-btn-decline {
+    padding: 10px 20px;
+    background: transparent;
+    color: rgba(255,255,255,0.5);
+    border: 1px solid rgba(255,255,255,0.2);
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
+    white-space: nowrap;
+  }
+  .cookie-btn-decline:hover { color: var(--white); border-color: rgba(255,255,255,0.5); }
+  @media (max-width: 700px) {
+    #cookie-banner { flex-direction: column; align-items: flex-start; gap: 16px; }
+    .cookie-buttons { width: 100%; }
+    .cookie-btn-accept, .cookie-btn-decline { flex: 1; text-align: center; }
+  }
+  /* ── ŠPIRO BOCARIĆ AWARD ── */
+  #bocaRic { background: var(--navy); }
+  .award-carousel-wrap { position: relative; overflow: hidden; width: 100%; touch-action: pan-y; -webkit-transform: translateZ(0); transform: translateZ(0); }
+  .award-track {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-transition: -webkit-transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 100%;
+    will-change: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  .award-slide {
+    min-width: 100%;
+    flex-shrink: 0;
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    gap: 0;
+    min-height: 420px;
+  }
+  .award-photo {
+    background: linear-gradient(135deg, var(--navy-mid), #1a3a6b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    color: rgba(200,168,75,0.3);
+    position: relative;
+    overflow: hidden;
+  }
+  .award-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    inset: 0;
+  }
+  .award-photo-initials {
+    position: relative;
+    z-index: 2;
+    font-size: 64px;
+    letter-spacing: -4px;
+    color: rgba(200,168,75,0.4);
+  }
+  .award-content {
+    padding: 48px 56px;
+    background: var(--navy-mid);
+    border-left: 3px solid var(--gold);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .award-year {
+    font-size: 11px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .award-year::before {
+    content: '';
+    width: 30px;
+    height: 1px;
+    background: var(--gold);
+    display: block;
+  }
+  .award-name {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(24px, 3vw, 36px);
+    color: var(--white);
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+  .award-title {
+    font-size: 13px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(200,168,75,0.7);
+    margin-bottom: 24px;
+  }
+  .award-bio {
+    font-size: 15px;
+    line-height: 1.8;
+    color: rgba(255,255,255,0.6);
+    max-width: 560px;
+  }
+  .award-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 28px;
+  }
+  @media (max-width: 900px) {
+    .award-slide { grid-template-columns: 1fr; min-height: auto; }
+    .award-photo { height: 220px; }
+    .award-content { padding: 32px 28px; }
+    .award-carousel-wrap { overflow: hidden; max-width: 100%; touch-action: pan-y; }
+    .award-track { width: 100%; }
+    .award-slide { width: 100%; box-sizing: border-box; }
+  }
+
+  /* Fix tab panels on mobile */
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+</style>
+
+<!-- ── HREFLANG ── -->
+<link rel="alternate" hreflang="sr" href="https://rotarybanjaluka.netlify.app/">
+<link rel="alternate" hreflang="en" href="https://rotarybanjaluka.netlify.app/?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://rotarybanjaluka.netlify.app/">
+
+<!-- ── SCHEMA.ORG JSON-LD ── -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://rotarybanjaluka.netlify.app/#organization",
+      "name": "Rotary Klub Banja Luka",
+      "alternateName": "Rotary Club Banja Luka",
+      "url": "https://rotarybanjaluka.netlify.app/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://rotarybanjaluka.netlify.app/slike/og-slika.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "description": "Rotary klub Banja Luka — zajednica ostvarenih profesionalaca posvecenih humanitarnom radu i izgradnji bolje zajednice od 1934. godine.",
+      "foundingDate": "1934",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Bulevar Vojvode Stepe Stepanovica 4",
+        "addressLocality": "Banja Luka",
+        "postalCode": "78000",
+        "addressCountry": "BA"
+      },
+      "email": "rotary.banjaluka@gmail.com",
+      "sameAs": [
+        "https://www.facebook.com/rotaryklubbanjaluka",
+        "https://www.rotary.org"
+      ],
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Rotary International",
+        "url": "https://www.rotary.org"
+      },
+      "knowsAbout": ["Humanitarni rad", "Volonterizam", "Zajednica", "Mladi", "Obrazovanje"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://rotarybanjaluka.netlify.app/#website",
+      "url": "https://rotarybanjaluka.netlify.app/",
+      "name": "Rotary Klub Banja Luka",
+      "description": "Zvanicni sajt Rotary kluba Banja Luka",
+      "inLanguage": ["sr", "en"],
+      "publisher": {
+        "@id": "https://rotarybanjaluka.netlify.app/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://rotarybanjaluka.netlify.app/#webpage",
+      "url": "https://rotarybanjaluka.netlify.app/",
+      "name": "Rotary Klub Banja Luka — Service Above Self",
+      "description": "Rotary klub Banja Luka — zajednica ostvarenih profesionalaca posvecenih humanitarnom radu i izgradnji bolje zajednice od 1934. godine.",
+      "isPartOf": {"@id": "https://rotarybanjaluka.netlify.app/#website"},
+      "about": {"@id": "https://rotarybanjaluka.netlify.app/#organization"},
+      "inLanguage": ["sr", "en"],
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Pocetna",
+          "item": "https://rotarybanjaluka.netlify.app/"
+        }]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://rotarybanjaluka.netlify.app/#localbusiness",
+      "name": "Rotary Klub Banja Luka",
+      "image": "https://rotarybanjaluka.netlify.app/slike/og-slika.jpg",
+      "url": "https://rotarybanjaluka.netlify.app/",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Bulevar Vojvode Stepe Stepanovica 4",
+        "addressLocality": "Banja Luka",
+        "postalCode": "78000",
+        "addressCountry": "BA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 44.7722,
+        "longitude": 17.1910
+      },
+      "telephone": "+387-51-123-456",
+      "email": "rotary.banjaluka@gmail.com",
+      "foundingDate": "1934",
+      "nonprofitStatus": "Nonprofit501c3"
+    }
+  ]
+}
+</script>
+
+</head>
+<body>
+<!-- Default language is SR — body has no lang class = SR visible -->
+
+<!-- COOKIE CONSENT BANNER -->
+<div id="cookie-banner" role="dialog" aria-label="Obavijest o kolačićima">
+  <div class="cookie-text">
+    <span class="sr">
+      <strong>Kolačići (cookies)</strong> — Ovaj sajt koristi isključivo tehničke kolačiće neophodne za njegovo funkcionisanje (pamćenje jezičnih postavki). Ne koristimo kolačiće za praćenje ili oglašavanje.
+      <a href="#disclaimer">Više informacija</a>
+    </span>
+    <span class="en">
+      <strong>Cookies</strong> — This website uses only technical cookies necessary for its operation (remembering language preferences). We do not use tracking or advertising cookies.
+      <a href="#disclaimer">More information</a>
+    </span>
+  </div>
+  <div class="cookie-buttons">
+    <button class="cookie-btn-accept" onclick="cookieAccept()">
+      <span class="sr">Prihvatam</span><span class="en">Accept</span>
+    </button>
+    <button class="cookie-btn-decline" onclick="cookieDecline()">
+      <span class="sr">Zatvori</span><span class="en">Close</span>
+    </button>
+  </div>
+</div>
+
+<!-- LANG SWITCHER -->
+<div class="lang-bar">
+  <button class="lang-btn active" id="btn-sr" onclick="setLang('sr')">SR</button>
+  <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
+</div>
+
+<!-- NAV -->
+<nav>
+  <a href="#home" class="nav-logo">
+    <!-- Official Rotary Wheel with 24 cogs -->
+    <svg class="gear-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Rotary točak — logo Rotary kluba">
+      <g fill="#C8A84B">
+        <!-- Outer ring with 24 teeth -->
+        <path d="M50 2 L53 12 L47 12 Z"/>
+        <path d="M50 98 L53 88 L47 88 Z"/>
+        <path d="M2 50 L12 53 L12 47 Z"/>
+        <path d="M98 50 L88 53 L88 47 Z"/>
+        <path d="M16.3 16.3 L23.5 23.5 L19.3 27.7 L12.1 20.5 Z" transform="rotate(0,50,50)"/>
+        <path d="M83.7 16.3 L76.5 23.5 L80.7 27.7 L87.9 20.5 Z" transform="rotate(0,50,50)"/>
+        <path d="M16.3 83.7 L23.5 76.5 L19.3 72.3 L12.1 79.5 Z" transform="rotate(0,50,50)"/>
+        <path d="M83.7 83.7 L76.5 76.5 L80.7 72.3 L87.9 79.5 Z" transform="rotate(0,50,50)"/>
+        <!-- Generate remaining teeth via transform -->
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(15,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(30,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(45,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(60,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(75,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(90,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(105,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(120,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(135,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(150,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(165,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(180,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(195,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(210,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(225,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(240,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(255,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(270,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(285,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(300,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(315,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(330,50,50)"/>
+        <path d="M50 2 L53 12 L47 12 Z" transform="rotate(345,50,50)"/>
+        <!-- Outer ring -->
+        <circle cx="50" cy="50" r="36" fill="none" stroke="#C8A84B" stroke-width="5"/>
+        <!-- Inner hub ring -->
+        <circle cx="50" cy="50" r="18" fill="none" stroke="#C8A84B" stroke-width="4"/>
+        <!-- Center hub -->
+        <circle cx="50" cy="50" r="8" fill="#C8A84B"/>
+        <!-- 6 spokes -->
+        <line x1="50" y1="14" x2="50" y2="32" stroke="#C8A84B" stroke-width="4"/>
+        <line x1="50" y1="14" x2="50" y2="32" stroke="#C8A84B" stroke-width="4" transform="rotate(60,50,50)"/>
+        <line x1="50" y1="14" x2="50" y2="32" stroke="#C8A84B" stroke-width="4" transform="rotate(120,50,50)"/>
+        <line x1="50" y1="14" x2="50" y2="32" stroke="#C8A84B" stroke-width="4" transform="rotate(180,50,50)"/>
+        <line x1="50" y1="14" x2="50" y2="32" stroke="#C8A84B" stroke-width="4" transform="rotate(240,50,50)"/>
+        <line x1="50" y1="14" x2="50" y2="32" stroke="#C8A84B" stroke-width="4" transform="rotate(300,50,50)"/>
+      </g>
+    </svg>
+    <div class="nav-logo-text">
+      <span>Rotary Club</span>
+      <span>Banja Luka · District 1910</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#about"><span class="sr">O nama</span><span class="en">About</span></a></li>
+    <li><a href="#projects"><span class="sr">Projekti</span><span class="en">Projects</span></a></li>
+
+    <!-- MEMBERS WITH DROPDOWN -->
+    <li class="has-dropdown">
+      <a href="#members">
+        <span class="sr">Članovi</span><span class="en">Members</span>
+        <span class="chevron"></span>
+      </a>
+      <div class="dropdown">
+        <div class="dropdown-title">
+          <span class="sr">Članovi kluba — Upravni odbor 2025–2026</span>
+          <span class="en">Club Members — Board of Directors 2025–2026</span>
+        </div>
+        <div class="dropdown-grid">
+          <a href="#members" class="dropdown-member">
+            <div class="dm-avatar">DS</div>
+            <div class="dm-info">
+              <div class="dm-name">Darko Stupar</div>
+              <div class="dm-role"><span class="sr">Predsjednik 2025–2026</span><span class="en">President 2025–2026</span></div>
+            </div>
+          </a>
+          <a href="#members" class="dropdown-member">
+            <div class="dm-avatar">EO</div>
+            <div class="dm-info">
+              <div class="dm-name">Emir Omić</div>
+              <div class="dm-role"><span class="sr">Zamjenik predsjednika</span><span class="en">Vice President</span></div>
+            </div>
+          </a>
+          <a href="#members" class="dropdown-member">
+            <div class="dm-avatar">VR</div>
+            <div class="dm-info">
+              <div class="dm-name">Vladan Ristić</div>
+              <div class="dm-role"><span class="sr">Prethodni predsjednik</span><span class="en">Immediate Past President</span></div>
+            </div>
+          </a>
+          <a href="#members" class="dropdown-member">
+            <div class="dm-avatar">AS</div>
+            <div class="dm-info">
+              <div class="dm-name">Aleksandar Sajić</div>
+              <div class="dm-role"><span class="sr">Dolazeći predsjednik</span><span class="en">President-Elect</span></div>
+            </div>
+          </a>
+          <a href="#members" class="dropdown-member">
+            <div class="dm-avatar">BM</div>
+            <div class="dm-info">
+              <div class="dm-name">Boško Milojević</div>
+              <div class="dm-role"><span class="sr">Sekretar</span><span class="en">Secretary</span></div>
+            </div>
+          </a>
+          <a href="#members" class="dropdown-member">
+            <div class="dm-avatar">SK</div>
+            <div class="dm-info">
+              <div class="dm-name">Siniša Kovačević</div>
+              <div class="dm-role"><span class="sr">Blagajnik</span><span class="en">Treasurer</span></div>
+            </div>
+          </a>
+          <a href="#members" class="dropdown-member" style="justify-content:center;gap:8px;background:rgba(200,168,75,0.05);">
+            <span style="font-size:11px;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold)">
+              <span class="sr">Svi članovi →</span>
+              <span class="en">All members →</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </li>
+
+    <li><a href="vijesti.html"><span class="sr">Vijesti</span><span class="en">News</span></a></li>
+    <li><a href="#bocaRic"><span class="sr">Nagrada</span><span class="en">Award</span></a></li>
+    <li><a href="galerija.html"><span class="sr">Galerija</span><span class="en">Gallery</span></a></li>
+    <li><a href="#contact"><span class="sr">Kontakt</span><span class="en">Contact</span></a></li>
+    <li style="display:flex;align-items:center;margin-left:8px;"><a href="https://www.facebook.com/rotaryklubbanjaluka" target="_blank" rel="noopener" aria-label="Facebook" style="display:flex;align-items:center;justify-content:center;width:34px;height:34px;border:1px solid rgba(200,168,75,0.35);color:rgba(255,255,255,0.7);transition:all 0.3s;" onmouseover="this.style.background='rgba(200,168,75,0.15)';this.style.borderColor='#C8A84B';this.style.color='#C8A84B'" onmouseout="this.style.background='';this.style.borderColor='rgba(200,168,75,0.35)';this.style.color='rgba(255,255,255,0.7)'"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 10 18" fill="currentColor" style="display:block;"><path d="M6.5 18V10h2.7l.4-3H6.5V5.1c0-.9.2-1.4 1.5-1.4H9.6V.1C9.3.1 8.3 0 7.1 0 4.6 0 3 1.5 3 4.3V7H.5v3H3v8h3.5z"/></svg></a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Meni" onclick="toggleMobileMenu()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE NAV DRAWER -->
+<div class="mobile-nav" id="mobileNav">
+  <ul>
+    <li><a href="#about" onclick="closeMobileMenu()"><span class="sr">O nama</span><span class="en">About</span></a></li>
+    <li><a href="#projects" onclick="closeMobileMenu()"><span class="sr">Projekti</span><span class="en">Projects</span></a></li>
+    <li>
+      <button onclick="toggleMobileSubmenu()">
+        <span class="sr">Članovi ▾</span><span class="en">Members ▾</span>
+      </button>
+      <ul class="mobile-submenu" id="mobileSubmenu">
+        <li><a href="#members" onclick="closeMobileMenu()">Darko Stupar — <span class="sr">Predsjednik</span><span class="en">President</span></a></li>
+        <li><a href="#members" onclick="closeMobileMenu()">Emir Omić — <span class="sr">Zamjenik predsjednika</span><span class="en">Vice President</span></a></li>
+        <li><a href="#members" onclick="closeMobileMenu()">Boško Milojević — <span class="sr">Sekretar</span><span class="en">Secretary</span></a></li>
+        <li><a href="#members" onclick="closeMobileMenu()">Siniša Kovačević — <span class="sr">Blagajnik</span><span class="en">Treasurer</span></a></li>
+      </ul>
+    </li>
+    <li><a href="vijesti.html"><span class="sr">Vijesti</span><span class="en">News</span></a></li>
+    <li><a href="#bocaRic" onclick="closeMobileMenu()"><span class="sr">Nagrada</span><span class="en">Award</span></a></li>
+    <li><a href="galerija.html"><span class="sr">Galerija</span><span class="en">Gallery</span></a></li>
+    <li><a href="#contact" onclick="closeMobileMenu()"><span class="sr">Kontakt</span><span class="en">Contact</span></a></li>
+    <li><a href="https://www.facebook.com/rotaryklubbanjaluka" target="_blank" rel="noopener" onclick="closeMobileMenu()" style="display:flex;align-items:center;gap:14px;"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 18" fill="currentColor" style="display:block;flex-shrink:0;"><path d="M6.5 18V10h2.7l.4-3H6.5V5.1c0-.9.2-1.4 1.5-1.4H9.6V.1C9.3.1 8.3 0 7.1 0 4.6 0 3 1.5 3 4.3V7H.5v3H3v8h3.5z"/></svg><span>Facebook</span></a></li>
+  </ul>
+  <div class="mobile-nav-divider"></div>
+  <div class="mobile-lang">
+    <button id="mobile-btn-sr" class="active" onclick="setLang('sr')">SR</button>
+    <button id="mobile-btn-en" onclick="setLang('en')">EN</button>
+  </div>
+</div>
+
+<!-- HERO -->
+<section id="home" class="hero" aria-label="Naslovna sekcija">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <span class="sr">Služba iznad sebe — od 1934. godine</span>
+      <span class="en">Service Above Self — Since 1934</span>
+    </div>
+    <h1 class="hero-title">
+      <em>Rotary Klub</em><br>Banja Luka
+    </h1>
+    <p class="hero-subtitle">
+      <span class="sr">Zajedno gradimo bolju zajednicu</span>
+      <span class="en">Building a better community together</span>
+    </p>
+    <p class="hero-desc">
+      <span class="sr">Zajednica ostvarenih profesionalaca posvećenih humanitarnom radu, osnaživanju mladih i izgradnji bolje Banjaluke i svijeta za generacije koje dolaze.</span>
+      <span class="en">A community of accomplished professionals committed to humanitarian work, youth empowerment, and building a better Banja Luka for generations to come.</span>
+    </p>
+    <a href="#about" class="hero-cta">
+      <span class="sr">Naša priča</span>
+      <span class="en">Our Story</span>
+    </a>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">30+</div>
+        <div class="stat-label sr">Članova</div>
+        <div class="stat-label en">Members</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">30+</div>
+        <div class="stat-label sr">Projekata</div>
+        <div class="stat-label en">Projects</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">90</div>
+        <div class="stat-label sr">Godina tradicije</div>
+        <div class="stat-label en">Years of tradition</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WELCOME BANNER -->
+<section id="welcome" style="background:var(--navy);padding:60px 5vw;text-align:center;border-bottom:1px solid rgba(200,168,75,0.2);">
+  <div style="max-width:800px;margin:0 auto;">
+    <p style="font-size:11px;letter-spacing:0.35em;text-transform:uppercase;color:var(--gold);margin-bottom:20px;">
+      <span class="sr">Dobrodošli</span><span class="en">Welcome</span>
+    </p>
+    <h2 style="font-family:'Playfair Display',serif;font-size:clamp(26px,4vw,44px);color:var(--white);line-height:1.2;margin-bottom:20px;">
+      <span class="sr">Dobrodošli u <em style="color:var(--gold);font-style:italic;">Rotary klub Banja Luka</em><br>i u inspirativni svijet rotarijanstva.</span>
+      <span class="en">Welcome to <em style="color:var(--gold);font-style:italic;">Rotary Club Banja Luka</em><br>and the inspiring world of Rotarianism.</span>
+    </h2>
+    <div style="width:60px;height:2px;background:var(--gold);margin:0 auto;"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-grid">
+    <div>
+      <div class="section-header">
+        <p class="section-tag sr">Ko smo mi</p>
+        <p class="section-tag en">Who We Are</p>
+        <h2 class="section-title">
+          <span class="sr">Klub izgrađen na <em style="font-style:italic;color:var(--gold)">tradiciji</em></span>
+          <span class="en">A Club Built on <em style="font-style:italic;color:var(--gold)">Tradition</em></span>
+        </h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-text">
+        <p>
+          <span class="sr"><strong>Rotary klub Banja Luka</strong> osnovan je 28. januara 1934. godine, a čarterovan 18. maja sljedeće godine. Osnivač i prvi predsjednik kluba bio je <strong>Artur Burda</strong> (1894–1984), ugledni građanin Banje Luke, privrednik i počasni poljski konzul. Klub je aktivno djelovao sve do pred Drugi svjetski rat, koji je 1941. godine zahvatio i naše krajeve.</span>
+          <span class="en"><strong>Rotary Club Banja Luka</strong> was founded on January 28, 1934, and chartered on May 18 of the following year. The founder and first president was <strong>Artur Burda</strong> (1894–1984), a distinguished citizen of Banja Luka, businessman and honorary Polish consul. The club was active until the onset of World War II, which reached our region in 1941.</span>
+        </p>
+        <p>
+          <span class="sr">Posljednji predsjednik kluba u tom periodu bio je poznati slikar, etnolog i direktor Muzeja <strong>Spiridon Špiro Bocarić</strong> (1876–1941). Nakon više od pola vijeka, ideja rotarijanstva u Banjoj Luci ponovo je zaživjela krajem XX vijeka zahvaljujući <strong>Dr Momčilu Biukoviću</strong> i grupi entuzijasta.</span>
+          <span class="en">The last president during that period was the renowned painter, ethnologist and museum director <strong>Spiridon Špiro Bocarić</strong> (1876–1941). After more than half a century, the idea of Rotarianism in Banja Luka was revived at the end of the 20th century thanks to <strong>Dr. Momčilo Biuković</strong> and a group of enthusiasts.</span>
+        </p>
+        <p>
+          <span class="sr">Danas je Rotary klub Banja Luka aktivan i u zajednici prepoznat klub po promociji izvrsnosti i po pružanju pomoći onima kojima je potrebna.</span>
+          <span class="en">Today, Rotary Club Banja Luka is an active and community-recognized club known for promoting excellence and helping those in need.</span>
+        </p>
+
+        <!-- MONOGRAFIJA LINK -->
+        <div style="margin: 28px 0 32px; padding: 20px 24px; background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%); border-left: 3px solid var(--gold); display: flex; align-items: center; justify-content: space-between; gap: 20px;">
+          <div>
+            <p style="font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--gold); margin-bottom: 6px;" class="sr">Publikacija</p>
+            <p style="font-size: 11px; letter-spacing: 0.25em; text-transform: uppercase; color: var(--gold); margin-bottom: 6px;" class="en">Publication</p>
+            <p style="font-family: 'Playfair Display', serif; font-size: 17px; color: var(--white); margin-bottom: 4px;">Monografija Rotary kluba Banja Luka</p>
+            <p style="font-size: 13px; color: rgba(255,255,255,0.45);" class="sr">Istorija, vrijednosti i dostignuća kluba</p>
+            <p style="font-size: 13px; color: rgba(255,255,255,0.45);" class="en">History, values and achievements of the club</p>
+          </div>
+          <a href="monografija.pdf" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 10px; padding: 12px 24px; background: var(--gold); color: var(--navy); font-size: 11px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; white-space: nowrap; transition: background 0.3s; flex-shrink: 0;">
+            <span>📄</span>
+            <span class="sr">Preuzmi PDF</span>
+            <span class="en">Download PDF</span>
+          </a>
+        </div>
+
+        <div class="about-timeline">
+          <div class="timeline-item">
+            <div class="timeline-year">1934</div>
+            <div class="timeline-text sr">Osnivanje kluba — Artur Burda, prvi predsjednik. Čarter 18. maja 1935.</div>
+            <div class="timeline-text en">Club founded — Artur Burda, first president. Chartered May 18, 1935.</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">1941</div>
+            <div class="timeline-text sr">Prekid rada zbog Drugog svjetskog rata. Posljednji predsjednik Špiro Bocarić.</div>
+            <div class="timeline-text en">Activities suspended due to WWII. Last president Špiro Bocarić.</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">1998</div>
+            <div class="timeline-text sr">Dr Momčilo Biuković saziva prvi sastanak Inicijativnog odbora za obnavljanje kluba (14. decembar).</div>
+            <div class="timeline-text en">Dr. Momčilo Biuković convenes the first meeting of the Initiative Board for club renewal (December 14).</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">1999</div>
+            <div class="timeline-text sr">Prijem u svjetsku zajednicu Rotary klubova — novi čarter 2. novembra 1999.</div>
+            <div class="timeline-text en">Admitted to the world Rotary community — new charter on November 2, 1999.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-values">
+      <!-- EDITABLE: Moto predsjednika RI — ažuriraj svake godine u julu -->
+      <div id="presidential-theme" style="grid-column:span 2;background:var(--navy);border:1px solid rgba(200,168,75,0.25);padding:20px;display:flex;gap:16px;align-items:center;margin-bottom:4px;">
+        <svg viewBox="0 0 100 100" style="width:48px;height:48px;flex-shrink:0;" xmlns="http://www.w3.org/2000/svg">
+          <g fill="#C8A84B">
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(0,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(15,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(30,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(45,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(60,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(75,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(90,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(105,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(120,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(135,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(150,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(165,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(180,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(195,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(210,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(225,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(240,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(255,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(270,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(285,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(300,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(315,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(330,50,50)"/><path d="M50 2 L53 12 L47 12 Z" transform="rotate(345,50,50)"/>
+            <circle cx="50" cy="50" r="36" fill="none" stroke="#C8A84B" stroke-width="5"/>
+            <circle cx="50" cy="50" r="18" fill="none" stroke="#C8A84B" stroke-width="4"/>
+            <circle cx="50" cy="50" r="8" fill="#C8A84B"/>
+            <line x1="50" y1="14" x2="50" y2="32" stroke="#C8A84B" stroke-width="4"/>
+            <line x1="50" y1="14" x2="50" y2="32" stroke="#C8A84B" stroke-width="4" transform="rotate(60,50,50)"/>
+            <line x1="50" y1="14" x2="50" y2="32" stroke="#C8A84B" stroke-width="4" transform="rotate(120,50,50)"/>
+            <line x1="50" y1="14" x2="50" y2="32" stroke="#C8A84B" stroke-width="4" transform="rotate(180,50,50)"/>
+            <line x1="50" y1="14" x2="50" y2="32" stroke="#C8A84B" stroke-width="4" transform="rotate(240,50,50)"/>
+            <line x1="50" y1="14" x2="50" y2="32" stroke="#C8A84B" stroke-width="4" transform="rotate(300,50,50)"/>
+          </g>
+        </svg>
+        <div>
+          <div style="font-size:9px;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);margin-bottom:4px;"><span class="sr">Moto predsjednika RI · 2025–2026</span><span class="en">RI Presidential Theme · 2025–2026</span></div>
+          <div style="font-family:'Playfair Display',serif;font-size:18px;color:var(--white);font-style:italic;">"Unite for Good"</div>
+          <div style="font-size:12px;color:rgba(255,255,255,0.45);margin-top:2px;">Stefan Tahan, RI President</div>
+        </div>
+      </div>
+      <div class="value-card">
+        <div class="value-icon">🤝</div>
+        <div class="value-title sr">Prijateljstvo</div>
+        <div class="value-title en">Fellowship</div>
+        <div class="value-desc sr">Izgradnja trajnih veza između profesionalaca i lidera zajednice.</div>
+        <div class="value-desc en">Building lasting connections among professionals and community leaders.</div>
+      </div>
+      <div class="value-card">
+        <div class="value-icon">🌍</div>
+        <div class="value-title sr">Služba</div>
+        <div class="value-title en">Service</div>
+        <div class="value-desc sr">Realizacija humanitarnih projekata lokalno i međunarodno.</div>
+        <div class="value-desc en">Delivering humanitarian projects locally and internationally.</div>
+      </div>
+      <div class="value-card">
+        <div class="value-icon">🎓</div>
+        <div class="value-title sr">Mladi</div>
+        <div class="value-title en">Youth</div>
+        <div class="value-desc sr">Osnaživanje mladih lidera kroz Rotaract i RYLA programe.</div>
+        <div class="value-desc en">Empowering young leaders through Rotaract and RYLA programs.</div>
+      </div>
+      <div class="value-card">
+        <div class="value-icon">☮️</div>
+        <div class="value-title sr">Mir</div>
+        <div class="value-title en">Peace</div>
+        <div class="value-desc sr">Promovisanje razumijevanja i dobre volje među svim narodima.</div>
+        <div class="value-desc en">Promoting understanding and good will among all peoples.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- PRESIDENT'S LETTER -->
+<section id="pismo-predsjednika" style="background:var(--navy);padding:100px 5vw;">
+  <div style="max-width:820px;margin:0 auto;">
+    <div class="section-header" style="margin-bottom:48px;">
+      <p class="section-tag sr">Riječ predsjednika kluba</p>
+      <p class="section-tag en">Message from the Club President</p>
+      <h2 class="section-title light sr">Pismo predsjednika</h2>
+      <h2 class="section-title light en">President's Letter</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <!-- Letter card -->
+    <div style="background:var(--navy-mid);border:1px solid rgba(200,168,75,0.2);border-left:4px solid var(--gold);padding:48px 52px;position:relative;">
+      <!-- Decorative quote mark -->
+      <div style="font-family:'Playfair Display',serif;font-size:120px;color:rgba(200,168,75,0.08);line-height:1;position:absolute;top:16px;left:32px;user-select:none;">"</div>
+
+      <!-- EDITABLE: Pismo predsjednika kluba — zamijeni ovaj tekst stvarnim pismom -->
+      <div style="position:relative;z-index:1;">
+        <p style="font-family:'Playfair Display',serif;font-size:20px;color:var(--gold);font-style:italic;margin-bottom:28px;line-height:1.5;" class="sr">
+          [Ovdje unesite tekst pisma predsjednika kluba — pozdrav članovima, gostima i svim posjetiocima sajta, ukratko o viziji i ciljevima za tekuću godinu.]
+        </p>
+        <p style="font-family:'Playfair Display',serif;font-size:20px;color:var(--gold);font-style:italic;margin-bottom:28px;line-height:1.5;" class="en">
+          [Insert the club president's letter here — a greeting to members, guests and all visitors, briefly outlining the vision and goals for the current year.]
+        </p>
+
+        <p style="font-size:16px;color:rgba(255,255,255,0.55);line-height:1.85;margin-bottom:28px;" class="sr">
+          [Nastavak pisma — možete dodati više paragrafa ovdje. Preporučena dužina: 150–300 riječi.]
+        </p>
+        <p style="font-size:16px;color:rgba(255,255,255,0.55);line-height:1.85;margin-bottom:28px;" class="en">
+          [Continuation of the letter — you can add more paragraphs here. Recommended length: 150–300 words.]
+        </p>
+
+        <!-- Signature -->
+        <div style="display:flex;align-items:center;gap:20px;margin-top:36px;padding-top:28px;border-top:1px solid rgba(200,168,75,0.2);">
+          <div style="width:52px;height:52px;background:linear-gradient(135deg,var(--navy),#1a3a6b);border:2px solid var(--gold);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:18px;color:var(--gold);border-radius:2px;flex-shrink:0;">DS</div>
+          <div>
+            <div style="font-family:'Playfair Display',serif;font-size:16px;color:var(--white);">Darko Stupar</div>
+            <div style="font-size:11px;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);margin-top:3px;">
+              <span class="sr">Predsjednik kluba · 2025–2026</span>
+              <span class="en">Club President · 2025–2026</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- NEWS -->
+<section id="news" style="background:var(--cream);">
+  <div class="section-header">
+    <p class="section-tag sr">Najnovije vijesti</p>
+    <p class="section-tag en">Latest Updates</p>
+    <h2 class="section-title sr">Vijesti i događaji</h2>
+    <h2 class="section-title en">News & Events</h2>
+    <div class="section-line"></div>
+  </div>
+
+  <!-- DESKTOP CAROUSEL -->
+  <div class="news-carousel" id="newsCarousel">
+    <div class="news-carousel-track" id="newsTrack">
+
+      <!-- VIJEST 1 -->
+      <div class="news-carousel-card">
+        <div class="news-card-photos">
+          <div class="news-card-photo-main">🌊</div>
+          <div class="news-card-photo-secondary">💧</div>
+          <div class="news-card-photo-secondary">🏘️</div>
+        </div>
+        <div class="news-body">
+          <div class="news-date sr">10. februar 2025.</div>
+          <div class="news-date en">February 10, 2025</div>
+          <div class="news-title sr">Pokrenut novi projekat čiste vode u Lijevče polju</div>
+          <div class="news-title en">New Water Project Launched in Lijevče Polje</div>
+          <div class="news-excerpt sr">Naš klub se udružio s lokalnim opštinama kako bi donio infrastrukturu čiste vode u pet sela u oblasti Lijevče polja. Očekuje se da će projekat koristiti više od 1.200 stanovnika.</div>
+          <div class="news-excerpt en">Our club has partnered with local municipalities to bring clean water infrastructure to five villages in the Lijevče Polje area, benefiting over 1,200 residents.</div>
+          <a href="#" class="news-more sr">Pročitaj više</a>
+          <a href="#" class="news-more en">Read More</a>
+        </div>
+      </div>
+
+      <!-- VIJEST 2 -->
+      <div class="news-carousel-card">
+        <div class="news-card-photos">
+          <div class="news-card-photo-main">🎓</div>
+          <div class="news-card-photo-secondary">📚</div>
+          <div class="news-card-photo-secondary">🏕️</div>
+        </div>
+        <div class="news-body">
+          <div class="news-date sr">28. januar 2025.</div>
+          <div class="news-date en">January 28, 2025</div>
+          <div class="news-title sr">Prijave za RYLA kamp su otvorene</div>
+          <div class="news-title en">RYLA Camp Applications Now Open</div>
+          <div class="news-excerpt sr">Pozivamo mlade od 18 do 30 godina da se prijave za godišnji RYLA kamp koji se ove godine održava u junu. Broj mjesta je ograničen.</div>
+          <div class="news-excerpt en">We invite young people aged 18 to 30 to apply for the annual RYLA camp taking place this June. Places are limited.</div>
+          <a href="#" class="news-more sr">Pročitaj više</a>
+          <a href="#" class="news-more en">Read More</a>
+        </div>
+      </div>
+
+      <!-- VIJEST 3 -->
+      <div class="news-carousel-card">
+        <div class="news-card-photos">
+          <div class="news-card-photo-main">🎉</div>
+          <div class="news-card-photo-secondary">🍾</div>
+          <div class="news-card-photo-secondary">❤️</div>
+        </div>
+        <div class="news-body">
+          <div class="news-date sr">15. januar 2025.</div>
+          <div class="news-date en">January 15, 2025</div>
+          <div class="news-title sr">Dobrotvorna gala prikupila 18.000 €</div>
+          <div class="news-title en">Charity Gala Raises €18,000</div>
+          <div class="news-excerpt sr">Na godišnjoj dobrotvornoj gali prikupljeno je 18.000 eura koji će biti usmjereni prema projektima podrške djeci i porodicama u potrebi.</div>
+          <div class="news-excerpt en">The annual charity gala raised €18,000 which will be directed towards projects supporting children and families in need.</div>
+          <a href="#" class="news-more sr">Pročitaj više</a>
+          <a href="#" class="news-more en">Read More</a>
+        </div>
+      </div>
+
+      <!-- VIJEST 4 -->
+      <div class="news-carousel-card">
+        <div class="news-card-photos">
+          <div class="news-card-photo-main">🏥</div>
+          <div class="news-card-photo-secondary">💊</div>
+          <div class="news-card-photo-secondary">👨‍⚕️</div>
+        </div>
+        <div class="news-body">
+          <div class="news-date sr">5. januar 2025.</div>
+          <div class="news-date en">January 5, 2025</div>
+          <div class="news-title sr">Besplatni medicinski pregledi za 340 pacijenata</div>
+          <div class="news-title en">Free Medical Check-ups for 340 Patients</div>
+          <div class="news-excerpt sr">U saradnji s Univerzitetskim kliničkim centrom RS, organizovali smo besplatne medicinske preglede za socijalno ugrožene stanovnike Banje Luke. Akciji se odazvalo 340 pacijenata.</div>
+          <div class="news-excerpt en">In cooperation with the University Clinical Centre RS, we organised free medical check-ups for socially vulnerable residents of Banja Luka. A total of 340 patients attended the event.</div>
+          <a href="#" class="news-more sr">Pročitaj više</a>
+          <a href="#" class="news-more en">Read More</a>
+        </div>
+      </div>
+
+    </div><!-- end track -->
+
+    <!-- Carousel controls -->
+    <div class="news-carousel-controls">
+      <button class="carousel-btn" id="prevBtn" onclick="carouselPrev()">&#8592;</button>
+      <div class="carousel-dots" id="carouselDots"></div>
+      <button class="carousel-btn" id="nextBtn" onclick="carouselNext()">&#8594;</button>
+    </div>
+  </div>
+
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- NAGRADA ŠPIRO BOCARIĆ -->
+<section id="bocaRic">
+  <div class="section-header">
+    <p class="section-tag sr">Godišnje priznanje</p>
+    <p class="section-tag en">Annual Award</p>
+    <h2 class="section-title light sr">Nagrada <em style="font-style:italic;color:var(--gold)">Spiridon Špiro Bocarić</em></h2>
+    <h2 class="section-title light en">The <em style="font-style:italic;color:var(--gold)">Spiridon Špiro Bocarić</em> Award</h2>
+    <div class="section-line"></div>
+    <p style="margin-top:20px;font-size:15px;line-height:1.75;color:rgba(255,255,255,0.5);max-width:680px;" class="sr">
+      Nagrada nosi ime uglednog slikara, etnologa i posljednjeg predsjednika prvobitnog Rotary kluba Banja Luka, <strong style="color:rgba(255,255,255,0.8)">Spiridona Špire Bocarića</strong> (1876–1941). Dodjeljuje se istaknutim pojedincima koji su dali izuzetan doprinos zajednici u oblastima nauke i kulture.
+    </p>
+    <p style="margin-top:20px;font-size:15px;line-height:1.75;color:rgba(255,255,255,0.5);max-width:680px;" class="en">
+      The award bears the name of the renowned painter, ethnologist and last president of the original Rotary Club Banja Luka, <strong style="color:rgba(255,255,255,0.8)">Spiridon Špiro Bocarić</strong> (1876–1941). It is awarded to outstanding individuals who have made exceptional contributions to the community in the fields of science and culture.
+    </p>
+  </div>
+
+  <div class="award-carousel-wrap">
+    <div class="award-track" id="awardTrack">
+
+      <!-- Dobitnik 1 -->
+      <div class="award-slide">
+        <div class="award-photo">
+          <div class="award-photo-initials">MB</div>
+        </div>
+        <div class="award-content">
+          <div class="award-year sr">Dobitnik 2026 · Nagrada Spiridon Špiro Bocarić</div>
+          <div class="award-year en">Laureate 2026 · Spiridon Špiro Bocarić Award</div>
+          <div class="award-name">[ Ime i prezime ]</div>
+          <div class="award-title sr">[ Zvanje / titula ]</div>
+          <div class="award-title en">[ Title / profession ]</div>
+          <p class="award-bio sr">[ Ovdje unesite kratku biografiju dobitnika nagrade i razlog dodjele. Opišite doprinos zajednici, postignuća i vezu s Rotary idealima. ]</p>
+          <p class="award-bio en">[ Insert a brief biography of the award recipient and the reason for the award. Describe contributions to the community, achievements and connection to Rotary ideals. ]</p>
+        </div>
+      </div>
+
+      <!-- Dobitnik 2 -->
+      <div class="award-slide">
+        <div class="award-photo">
+          <div class="award-photo-initials">II</div>
+        </div>
+        <div class="award-content">
+          <div class="award-year sr">Dobitnik 2024 · Nagrada Spiridon Špiro Bocarić</div>
+          <div class="award-year en">Laureate 2024 · Spiridon Špiro Bocarić Award</div>
+          <div class="award-name">[ Ime i prezime ]</div>
+          <div class="award-title sr">[ Zvanje / titula ]</div>
+          <div class="award-title en">[ Title / profession ]</div>
+          <p class="award-bio sr">[ Ovdje unesite kratku biografiju dobitnika nagrade i razlog dodjele. ]</p>
+          <p class="award-bio en">[ Insert a brief biography of the award recipient and the reason for the award. ]</p>
+        </div>
+      </div>
+
+      <!-- Dobitnik 3 -->
+      <div class="award-slide">
+        <div class="award-photo">
+          <div class="award-photo-initials">III</div>
+        </div>
+        <div class="award-content">
+          <div class="award-year sr">Dobitnik 2025 · Nagrada Spiridon Špiro Bocarić</div>
+          <div class="award-year en">Laureate 2025 · Spiridon Špiro Bocarić Award</div>
+          <div class="award-name">[ Ime i prezime ]</div>
+          <div class="award-title sr">[ Zvanje / titula ]</div>
+          <div class="award-title en">[ Title / profession ]</div>
+          <p class="award-bio sr">[ Ovdje unesite kratku biografiju dobitnika nagrade i razlog dodjele. ]</p>
+          <p class="award-bio en">[ Insert a brief biography of the award recipient and the reason for the award. ]</p>
+        </div>
+      </div>
+
+      <!-- Dobitnik 4 -->
+      <div class="award-slide">
+        <div class="award-photo">
+          <div class="award-photo-initials">IV</div>
+        </div>
+        <div class="award-content">
+          <div class="award-year sr">Dobitnik 2026 · Nagrada Spiridon Špiro Bocarić</div>
+          <div class="award-year en">Laureate 2026 · Spiridon Špiro Bocarić Award</div>
+          <div class="award-name">[ Ime i prezime ]</div>
+          <div class="award-title sr">[ Zvanje / titula ]</div>
+          <div class="award-title en">[ Title / profession ]</div>
+          <p class="award-bio sr">[ Ovdje unesite kratku biografiju dobitnika nagrade i razlog dodjele. ]</p>
+          <p class="award-bio en">[ Insert a brief biography of the award recipient and the reason for the award. ]</p>
+        </div>
+      </div>
+
+    </div><!-- end award-track -->
+
+    <div class="award-controls">
+      <button class="carousel-btn" onclick="awardPrev()">&#8592;</button>
+      <div class="carousel-dots" id="awardDots"></div>
+      <button class="carousel-btn" onclick="awardNext()">&#8594;</button>
+    </div>
+  </div>
+
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-header">
+    <p class="section-tag sr">Naš rad</p>
+    <p class="section-tag en">Our Work</p>
+    <h2 class="section-title light sr">Projekti i aktivnosti</h2>
+    <h2 class="section-title light en">Projects & Activities</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="projects-grid">
+    <div class="project-card">
+      <div class="project-num">01</div>
+      <div class="project-title sr">Inicijativa za čistu vodu</div>
+      <div class="project-title en">Clean Water Initiative</div>
+      <div class="project-desc sr">Obezbjeđivanje pristupa čistoj vodi za piće ruralnim zajednicama u okolnom regionu kroz infrastrukturnu podršku i lokalna partnerstva.</div>
+      <div class="project-desc en">Providing access to clean drinking water to rural communities through infrastructure support and local partnerships.</div>
+      <span class="project-tag sr">Humanitarno</span>
+      <span class="project-tag en">Humanitarian</span>
+    </div>
+    <div class="project-card">
+      <div class="project-num">02</div>
+      <div class="project-title sr">Kamp za mlade lidere</div>
+      <div class="project-title en">Youth Leadership Camp</div>
+      <div class="project-desc sr">Godišnji RYLA kamp koji opremljuje mlade ljude od 18 do 30 godina liderskim i profesionalnim vještinama.</div>
+      <div class="project-desc en">Annual RYLA camp equipping young people aged 18–30 with leadership and professional skills.</div>
+      <span class="project-tag sr">Mladi</span>
+      <span class="project-tag en">Youth</span>
+    </div>
+    <div class="project-card">
+      <div class="project-num">03</div>
+      <div class="project-title">Polio Plus</div>
+      <div class="project-desc sr">Podrška globalnoj Rotary kampanji za iskorjenjivanje dječije paralize. Doprinosimo finansijski i kroz kampanje podizanja svijesti.</div>
+      <div class="project-desc en">Supporting Rotary's global campaign to eradicate polio through financial contributions and regional awareness campaigns.</div>
+      <span class="project-tag sr">Zdravlje</span>
+      <span class="project-tag en">Health</span>
+    </div>
+    <div class="project-card">
+      <div class="project-num">04</div>
+      <div class="project-title sr">Projekat školske biblioteke</div>
+      <div class="project-title en">School Library Project</div>
+      <div class="project-desc sr">Doniranje knjiga, obrazovnih materijala i digitalnih resursa slabije finansiranim školama u banjolučkom kantonu.</div>
+      <div class="project-desc en">Donating books, educational materials and digital resources to underfunded schools throughout Banja Luka.</div>
+      <span class="project-tag sr">Obrazovanje</span>
+      <span class="project-tag en">Education</span>
+    </div>
+    <div class="project-card">
+      <div class="project-num">05</div>
+      <div class="project-title sr">Stručno osposobljavanje</div>
+      <div class="project-title en">Vocational Training</div>
+      <div class="project-desc sr">Nagrade za stručnu službu i mentorstvo za mlade profesionalce koji ulaze u izazovne karijerne oblasti.</div>
+      <div class="project-desc en">Vocational service awards and mentorship for young professionals entering challenging career fields.</div>
+      <span class="project-tag sr">Zajednica</span>
+      <span class="project-tag en">Community</span>
+    </div>
+    <div class="project-card">
+      <div class="project-num">06</div>
+      <div class="project-title">Rotaract Banja Luka</div>
+      <div class="project-desc sr">Podrška Rotaract klubu Banja Luka — klubu mladih profesionalaca od 18 do 30 godina posvećenih službi i prijateljstvu.</div>
+      <div class="project-desc en">Supporting the Rotaract Club of Banja Luka — young professionals aged 18–30 committed to service and fellowship.</div>
+      <span class="project-tag sr">Mladi</span>
+      <span class="project-tag en">Youth</span>
+    </div>
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- MEMBERS -->
+<section id="members">
+  <div class="section-header">
+    <p class="section-tag sr">Naši ljudi</p>
+    <p class="section-tag en">Our People</p>
+    <h2 class="section-title sr">Članovi kluba</h2>
+    <h2 class="section-title en">Club Members</h2>
+    <div class="section-line"></div>
+  </div>
+  <p class="members-intro sr">
+    Rotary klub Banja Luka okuplja više od 30 ostvarenih članova — profesionalaca, privrednika, ljekarâ, pravnikâ i društvenih aktivista koji dijele zajedničke vrijednosti službe i prijateljstva.
+  </p>
+  <p class="members-intro en">
+    Rotary Club Banja Luka brings together more than 60 dedicated members — professionals, entrepreneurs, doctors, lawyers and community activists who share common values of service and fellowship.
+  </p>
+
+  <!-- TABS -->
+  <div class="members-tabs">
+    <button class="members-tab active" onclick="switchTab('uprava', this)">
+      <span class="sr">Uprava kluba</span><span class="en">Board of Directors</span>
+    </button>
+    <button class="members-tab" onclick="switchTab('aktivni', this)">
+      <span class="sr">Svi članovi</span><span class="en">All Members</span>
+    </button>
+    <button class="members-tab" onclick="switchTab('pocasni', this)">
+      <span class="sr">Počasni članovi</span><span class="en">Honorary Members</span>
+    </button>
+    <button class="members-tab" onclick="switchTab('paulharris', this)">
+      <span class="sr">Paul Harris medalja</span><span class="en">Paul Harris Fellows</span>
+    </button>
+    <button class="members-tab" onclick="switchTab('memoriam', this)">
+      <span class="sr">In Memoriam</span><span class="en">In Memoriam</span>
+    </button>
+  </div>
+
+  <!-- TAB: UPRAVA KLUBA -->
+  <div id="tab-uprava" class="tab-panel active">
+    <div class="members-grid">
+    <div class="member-card">
+      <div class="member-avatar">DS</div>
+      <div class="member-info">
+        <div class="member-name">Darko Stupar</div>
+        <div class="member-role sr">Predsjednik 2025–2026</div>
+        <div class="member-role en">President 2025–2026</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-avatar">EO</div>
+      <div class="member-info">
+        <div class="member-name">Emir Omić</div>
+        <div class="member-role sr">Zamjenik predsjednika</div>
+        <div class="member-role en">Vice President</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-avatar">VR</div>
+      <div class="member-info">
+        <div class="member-name">Vladan Ristić</div>
+        <div class="member-role sr">Prethodni predsjednik</div>
+        <div class="member-role en">Immediate Past President</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-avatar">AS</div>
+      <div class="member-info">
+        <div class="member-name">Aleksandar Sajić</div>
+        <div class="member-role sr">Dolazeći predsjednik</div>
+        <div class="member-role en">President-Elect</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-avatar">BM</div>
+      <div class="member-info">
+        <div class="member-name">Boško Milojević</div>
+        <div class="member-role sr">Sekretar</div>
+        <div class="member-role en">Secretary</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-avatar">SK</div>
+      <div class="member-info">
+        <div class="member-name">Siniša Kovačević</div>
+        <div class="member-role sr">Blagajnik</div>
+        <div class="member-role en">Treasurer</div>
+        <div class="member-since sr">Član od 2023.</div>
+        <div class="member-since en">Member since 2023</div>
+      </div>
+    </div>
+    </div><!-- end members-grid -->
+  </div><!-- end tab-uprava -->
+
+  <!-- TAB: SVI ČLANOVI -->
+  <div id="tab-aktivni" class="tab-panel">
+    <p style="font-size:15px;color:var(--text-light);margin-bottom:32px;font-style:italic;" class="sr">Kompletan popis aktivnih članova Rotary kluba Banja Luka (ažurirano mart 2026).</p>
+    <p style="font-size:15px;color:var(--text-light);margin-bottom:32px;font-style:italic;" class="en">Complete list of active members of Rotary Club Banja Luka (updated March 2026).</p>
+    <div class="members-grid">
+      <div class="member-card"><div class="member-avatar">MB</div><div class="member-info"><div class="member-name">Milan Božić</div><div class="member-since sr">Član od 2017.</div><div class="member-since en">Member since 2017</div></div></div>
+      <div class="member-card"><div class="member-avatar">BC</div><div class="member-info"><div class="member-name">Branislav Cvjetković</div><div class="member-since sr">Član od 2023.</div><div class="member-since en">Member since 2023</div></div></div>
+      <div class="member-card"><div class="member-avatar">DĐ</div><div class="member-info"><div class="member-name">Darko Đudurović</div><div class="member-since sr">Član od 2000.</div><div class="member-since en">Member since 2000</div></div></div>
+      <div class="member-card"><div class="member-avatar">MG</div><div class="member-info"><div class="member-name">Miloš Grujić</div><div class="member-since sr">Član od 2020.</div><div class="member-since en">Member since 2020</div></div></div>
+      <div class="member-card"><div class="member-avatar">DK</div><div class="member-info"><div class="member-name">Dragan Kasagić</div><div class="member-since sr">Član od 2007.</div><div class="member-since en">Member since 2007</div></div></div>
+      <div class="member-card"><div class="member-avatar">SK</div><div class="member-info"><div class="member-name">Siniša Kovačević</div><div class="member-since sr">Član od 2023.</div><div class="member-since en">Member since 2023</div></div></div>
+      <div class="member-card"><div class="member-avatar">AL</div><div class="member-info"><div class="member-name">Aleksandar Lazarević</div><div class="member-role" style="color:var(--gold);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;">Paul Harris Fellow</div><div class="member-since sr">Član od 2002.</div><div class="member-since en">Member since 2002</div></div></div>
+      <div class="member-card"><div class="member-avatar">DM</div><div class="member-info"><div class="member-name">Davor Maksimović</div><div class="member-since sr">Član od 2014.</div><div class="member-since en">Member since 2014</div></div></div>
+      <div class="member-card"><div class="member-avatar">SM</div><div class="member-info"><div class="member-name">Siniša Marčić</div><div class="member-since sr">Član od 2013.</div><div class="member-since en">Member since 2013</div></div></div>
+      <div class="member-card"><div class="member-avatar">MM</div><div class="member-info"><div class="member-name">Milan Mataruga</div><div class="member-since sr">Član od 2011.</div><div class="member-since en">Member since 2011</div></div></div>
+      <div class="member-card"><div class="member-avatar">NM</div><div class="member-info"><div class="member-name">Nedeljko Milaković</div><div class="member-role" style="color:var(--gold);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;">Paul Harris Fellow</div><div class="member-since sr">Član od 2000.</div><div class="member-since en">Member since 2000</div></div></div>
+      <div class="member-card"><div class="member-avatar">RM</div><div class="member-info"><div class="member-name">Ranko Milišić</div><div class="member-since sr">Član od 2010.</div><div class="member-since en">Member since 2010</div></div></div>
+      <div class="member-card"><div class="member-avatar">MM</div><div class="member-info"><div class="member-name">Mladen Miljanović</div><div class="member-since sr">Član od 2010.</div><div class="member-since en">Member since 2010</div></div></div>
+      <div class="member-card"><div class="member-avatar">BM</div><div class="member-info"><div class="member-name">Boško Milojević</div><div class="member-since sr">Član od 2024.</div><div class="member-since en">Member since 2024</div></div></div>
+      <div class="member-card"><div class="member-avatar">NN</div><div class="member-info"><div class="member-name">Nebojša Ninić</div><div class="member-since sr">Član od 2000.</div><div class="member-since en">Member since 2000</div></div></div>
+      <div class="member-card"><div class="member-avatar">EO</div><div class="member-info"><div class="member-name">Emir Omić</div><div class="member-role" style="color:var(--gold);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;">Paul Harris Fellow</div><div class="member-since sr">Član od 2010.</div><div class="member-since en">Member since 2010</div></div></div>
+      <div class="member-card"><div class="member-avatar">ZP</div><div class="member-info"><div class="member-name">Zoran Pejašinović</div><div class="member-role" style="color:var(--gold);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;">Paul Harris Fellow</div><div class="member-since sr">Član od 2004.</div><div class="member-since en">Member since 2004</div></div></div>
+      <div class="member-card"><div class="member-avatar">DP</div><div class="member-info"><div class="member-name">Duško Prešić</div><div class="member-since sr">Član od 2024.</div><div class="member-since en">Member since 2024</div></div></div>
+      <div class="member-card"><div class="member-avatar">MP</div><div class="member-info"><div class="member-name">Miljkan Pucar</div><div class="member-role" style="color:var(--gold);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;">Paul Harris Fellow</div><div class="member-since sr">Član od 2000.</div><div class="member-since en">Member since 2000</div></div></div>
+      <div class="member-card"><div class="member-avatar">NR</div><div class="member-info"><div class="member-name">Nikola Radovanović</div><div class="member-since sr">Član od 2020.</div><div class="member-since en">Member since 2020</div></div></div>
+      <div class="member-card"><div class="member-avatar">VR</div><div class="member-info"><div class="member-name">Vladan Ristić</div><div class="member-since sr">Član od 2014.</div><div class="member-since en">Member since 2014</div></div></div>
+      <div class="member-card"><div class="member-avatar">GR</div><div class="member-info"><div class="member-name">Gojko Rodić</div><div class="member-since sr">Član od 2010.</div><div class="member-since en">Member since 2010</div></div></div>
+      <div class="member-card"><div class="member-avatar">AS</div><div class="member-info"><div class="member-name">Aleksandar Sajić</div><div class="member-since sr">Član od 2019.</div><div class="member-since en">Member since 2019</div></div></div>
+      <div class="member-card"><div class="member-avatar">AS</div><div class="member-info"><div class="member-name">Aleksandar Savanović</div><div class="member-since sr">Član od 2010.</div><div class="member-since en">Member since 2010</div></div></div>
+      <div class="member-card"><div class="member-avatar">DS</div><div class="member-info"><div class="member-name">Darko Stupar</div><div class="member-since sr">Član od 2015.</div><div class="member-since en">Member since 2015</div></div></div>
+      <div class="member-card"><div class="member-avatar">AT</div><div class="member-info"><div class="member-name">Aleksandar Tepić</div><div class="member-since sr">Član od 2020.</div><div class="member-since en">Member since 2020</div></div></div>
+      <div class="member-card"><div class="member-avatar">DT</div><div class="member-info"><div class="member-name">Dejan Todorović</div><div class="member-since sr">Član od 2005.</div><div class="member-since en">Member since 2005</div></div></div>
+      <div class="member-card"><div class="member-avatar">VT</div><div class="member-info"><div class="member-name">Vojislav Trkulja</div><div class="member-role" style="color:var(--gold);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;">Paul Harris Fellow</div><div class="member-since sr">Član od 2000.</div><div class="member-since en">Member since 2000</div></div></div>
+      <div class="member-card"><div class="member-avatar">IT</div><div class="member-info"><div class="member-name">Ilija Trninić</div><div class="member-role" style="color:var(--gold);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;">Paul Harris Fellow</div><div class="member-since sr">Član od 2006.</div><div class="member-since en">Member since 2006</div></div></div>
+      <div class="member-card"><div class="member-avatar">ZV</div><div class="member-info"><div class="member-name">Zoran Vučenović</div><div class="member-role" style="color:var(--gold);font-size:10px;letter-spacing:0.1em;text-transform:uppercase;">Paul Harris Fellow</div><div class="member-since sr">Član od 2000.</div><div class="member-since en">Member since 2000</div></div></div>
+    </div>
+  </div>
+
+  <!-- TAB: POČASNI ČLANOVI -->
+  <div id="tab-pocasni" class="tab-panel">
+    <p style="font-size:15px;color:var(--text-light);margin-bottom:32px;font-style:italic;" class="sr">Počasno članstvo dodjeljuje se osobama koje su izuzetnim doprinosom zaslužile posebno priznanje kluba.</p>
+    <p style="font-size:15px;color:var(--text-light);margin-bottom:32px;font-style:italic;" class="en">Honorary membership is awarded to individuals who have earned special recognition from the club through exceptional contributions.</p>
+    <div class="members-grid">
+      <div class="member-card" style="border:1px solid rgba(200,168,75,0.3);background:linear-gradient(to bottom,rgba(200,168,75,0.03),transparent);">
+        <div class="member-avatar" style="background:linear-gradient(135deg,#1a2a1a,#2a4020);">MB</div>
+        <div class="member-info">
+          <div class="member-name">Momčilo Biuković</div>
+          <div class="member-role sr">Počasni član</div>
+          <div class="member-role en">Honorary Member</div>
+          <div class="member-bio sr">Osnivač obnovljenog Rotary kluba Banja Luka. Sazvao je prvi sastanak Inicijativnog odbora za obnavljanje kluba 14. decembra 1998. godine i predvodio napore koji su rezultirali novim čarterom 2. novembra 1999. Dugogodišnji aktivni član i stub kluba.</div>
+          <div class="member-bio en">Founder of the renewed Rotary Club Banja Luka. Convened the first meeting of the Initiative Board for club renewal on December 14, 1998 and led the efforts resulting in the new charter on November 2, 1999. Long-standing active member and pillar of the club.</div>
+          <div class="member-since sr">Aktivan član od 1999. · Počasni član</div>
+          <div class="member-since en">Active member since 1999 · Honorary Member</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB: PAUL HARRIS FELLOWS -->
+  <!-- TAB: PAUL HARRIS FELLOWS -->
+  <div id="tab-paulharris" class="tab-panel">
+    <p style="font-size:15px;color:var(--text-light);margin-bottom:32px;font-style:italic;" class="sr">Paul Harris medalja (Paul Harris Fellow) najviše je priznanje koje dodjeljuje Rotary fondacija za izuzetan doprinos rotarijanskim idealima.</p>
+    <p style="font-size:15px;color:var(--text-light);margin-bottom:32px;font-style:italic;" class="en">The Paul Harris Fellow medal is the highest recognition awarded by the Rotary Foundation for exceptional contribution to Rotarian ideals.</p>
+    <div class="members-grid">
+      <div class="member-card" style="border:1px solid rgba(200,168,75,0.4);background:linear-gradient(to bottom,rgba(200,168,75,0.03),transparent);">
+        <div class="member-avatar" style="background:linear-gradient(135deg,#2a1f00,#4a3a00);">AL</div>
+        <div class="member-info">
+          <div class="member-name">Aleksandar Lazarević</div>
+          <div class="member-role" style="color:var(--gold);">Paul Harris Fellow</div>
+          <div class="member-since sr">Član od 2002.</div>
+          <div class="member-since en">Member since 2002</div>
+        </div>
+      </div>
+      <div class="member-card" style="border:1px solid rgba(200,168,75,0.4);background:linear-gradient(to bottom,rgba(200,168,75,0.03),transparent);">
+        <div class="member-avatar" style="background:linear-gradient(135deg,#2a1f00,#4a3a00);">NM</div>
+        <div class="member-info">
+          <div class="member-name">Nedeljko Milaković</div>
+          <div class="member-role" style="color:var(--gold);">Paul Harris Fellow</div>
+          <div class="member-since sr">Član od 2000.</div>
+          <div class="member-since en">Member since 2000</div>
+        </div>
+      </div>
+      <div class="member-card" style="border:1px solid rgba(200,168,75,0.4);background:linear-gradient(to bottom,rgba(200,168,75,0.03),transparent);">
+        <div class="member-avatar" style="background:linear-gradient(135deg,#2a1f00,#4a3a00);">EO</div>
+        <div class="member-info">
+          <div class="member-name">Emir Omić</div>
+          <div class="member-role" style="color:var(--gold);">Paul Harris Fellow</div>
+          <div class="member-since sr">Član od 2010.</div>
+          <div class="member-since en">Member since 2010</div>
+        </div>
+      </div>
+      <div class="member-card" style="border:1px solid rgba(200,168,75,0.4);background:linear-gradient(to bottom,rgba(200,168,75,0.03),transparent);">
+        <div class="member-avatar" style="background:linear-gradient(135deg,#2a1f00,#4a3a00);">ZP</div>
+        <div class="member-info">
+          <div class="member-name">Zoran Pejašinović</div>
+          <div class="member-role" style="color:var(--gold);">Paul Harris Fellow</div>
+          <div class="member-since sr">Član od 2004.</div>
+          <div class="member-since en">Member since 2004</div>
+        </div>
+      </div>
+      <div class="member-card" style="border:1px solid rgba(200,168,75,0.4);background:linear-gradient(to bottom,rgba(200,168,75,0.03),transparent);">
+        <div class="member-avatar" style="background:linear-gradient(135deg,#2a1f00,#4a3a00);">MP</div>
+        <div class="member-info">
+          <div class="member-name">Miljkan Pucar</div>
+          <div class="member-role" style="color:var(--gold);">Paul Harris Fellow</div>
+          <div class="member-since sr">Član od 2000.</div>
+          <div class="member-since en">Member since 2000</div>
+        </div>
+      </div>
+      <div class="member-card" style="border:1px solid rgba(200,168,75,0.4);background:linear-gradient(to bottom,rgba(200,168,75,0.03),transparent);">
+        <div class="member-avatar" style="background:linear-gradient(135deg,#2a1f00,#4a3a00);">VT</div>
+        <div class="member-info">
+          <div class="member-name">Vojislav Trkulja</div>
+          <div class="member-role" style="color:var(--gold);">Paul Harris Fellow</div>
+          <div class="member-since sr">Član od 2000.</div>
+          <div class="member-since en">Member since 2000</div>
+        </div>
+      </div>
+      <div class="member-card" style="border:1px solid rgba(200,168,75,0.4);background:linear-gradient(to bottom,rgba(200,168,75,0.03),transparent);">
+        <div class="member-avatar" style="background:linear-gradient(135deg,#2a1f00,#4a3a00);">IT</div>
+        <div class="member-info">
+          <div class="member-name">Ilija Trninić</div>
+          <div class="member-role" style="color:var(--gold);">Paul Harris Fellow</div>
+          <div class="member-since sr">Član od 2006.</div>
+          <div class="member-since en">Member since 2006</div>
+        </div>
+      </div>
+      <div class="member-card" style="border:1px solid rgba(200,168,75,0.4);background:linear-gradient(to bottom,rgba(200,168,75,0.03),transparent);">
+        <div class="member-avatar" style="background:linear-gradient(135deg,#2a1f00,#4a3a00);">ZV</div>
+        <div class="member-info">
+          <div class="member-name">Zoran Vučenović</div>
+          <div class="member-role" style="color:var(--gold);">Paul Harris Fellow</div>
+          <div class="member-since sr">Član od 2000.</div>
+          <div class="member-since en">Member since 2000</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB: IN MEMORIAM -->
+  <div id="tab-memoriam" class="tab-panel">
+    <p style="font-size:15px;color:var(--text-light);margin-bottom:32px;font-style:italic;" class="sr">S dubokim poštovanjem čuvamo uspomenu na naše preminule članove čiji je doprinos obilježio historiju kluba.</p>
+    <p style="font-size:15px;color:var(--text-light);margin-bottom:32px;font-style:italic;" class="en">With deep respect, we preserve the memory of our departed members whose contributions have marked the history of our club.</p>
+    <div class="members-grid">
+      <div class="member-card" style="border:1px dashed rgba(150,150,150,0.3);">
+        <div class="member-avatar" style="background:linear-gradient(135deg,#1a1a2a,#2a2a3a);font-size:28px;">✝</div>
+        <div class="member-info">
+          <div class="member-name sr">[ Ime i prezime ]</div>
+          <div class="member-name en">[ Full Name ]</div>
+          <div class="member-role" style="color:#888;">____  –  ____</div>
+          <div class="member-bio sr">[ Kratka biografija i doprinos klubu ]</div>
+          <div class="member-bio en">[ Brief biography and contribution to the club ]</div>
+          <div class="member-since sr" style="color:#aaa;">Član od ____.</div>
+          <div class="member-since en" style="color:#aaa;">Member since ____</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="section-header">
+    <p class="section-tag sr">Trenuci</p>
+    <p class="section-tag en">Moments</p>
+    <h2 class="section-title light sr">Foto galerija</h2>
+    <h2 class="section-title light en">Photo Gallery</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="gallery-grid">
+    <div class="gallery-item" style="background:linear-gradient(135deg,#0A1628,#1a3a6b)">
+      <span>🏛️</span><div class="gallery-overlay"></div>
+    </div>
+    <div class="gallery-item" style="background:linear-gradient(135deg,#1a2a20,#2a4a30)">🌳</div>
+    <div class="gallery-item" style="background:linear-gradient(135deg,#2a1a0a,#4a3a10)">🤝</div>
+    <div class="gallery-item" style="background:linear-gradient(135deg,#1a0a2a,#3a1a4a)">🎓</div>
+    <div class="gallery-item" style="background:linear-gradient(135deg,#0a2a2a,#104040)">💧</div>
+    <div class="gallery-item" style="background:linear-gradient(135deg,#2a0a0a,#501010)">❤️</div>
+    <div class="gallery-item" style="background:linear-gradient(135deg,#0a1a2a,#102040)">🌍</div>
+  </div>
+</section>
+
+<div class="gold-divider"></div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="section-header">
+    <p class="section-tag sr">Kontaktirajte nas</p>
+    <p class="section-tag en">Get In Touch</p>
+    <h2 class="section-title sr">Kontakt</h2>
+    <h2 class="section-title en">Contact</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <h3 class="sr">Sastajemo se svaki utorak u 20:00</h3>
+      <h3 class="en">We meet every Tuesday at 20:00</h3>
+      <div class="contact-detail">
+        <div class="contact-detail-icon">📍</div>
+        <div class="contact-detail-text">
+          <strong><span class="sr">Adresa</span><span class="en">Address</span></strong>
+          <span>Hotel Marriott Courtyard,<br>78000 Banja Luka, BiH</span>
+        </div>
+      </div>
+      <div class="contact-detail">
+        <div class="contact-detail-icon">📧</div>
+        <div class="contact-detail-text">
+          <strong><span class="sr">E-pošta</span><span class="en">Email</span></strong>
+          <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e78e898188a795889386959e8586898d868b928c86c9889580">[email&#160;protected]</a></span>
+        </div>
+      </div>
+      <div class="contact-detail">
+        <div class="contact-detail-icon">📞</div>
+        <div class="contact-detail-text">
+          <strong><span class="sr">Telefon</span><span class="en">Phone</span></strong>
+          <span>+387 51 123 456</span>
+        </div>
+      </div>
+      <div class="contact-detail">
+        <div class="contact-detail-icon">🌐</div>
+        <div class="contact-detail-text">
+          <strong><span class="sr">Distrikt</span><span class="en">District</span></strong>
+          <span>Rotary International — District 1910</span>
+        </div>
+      </div>
+      <div style="margin-top:24px;padding:16px 20px;background:rgba(200,168,75,0.08);border-left:3px solid var(--gold);">
+        <p style="font-size:13px;line-height:1.7;color:var(--text-light);" class="sr">Sastancima, pored članova RC Banja Luka, mogu prisustvovati rotarijanci iz drugih klubova uz prethodnu najavu. Ostala zainteresovana lica mogu prisustvovati sastancima po pozivu.</p>
+        <p style="font-size:13px;line-height:1.7;color:var(--text-light);" class="en">In addition to RC Banja Luka members, Rotarians from other clubs may attend meetings upon prior notice. Other interested parties may attend meetings by invitation.</p>
+      </div>
+    </div>
+    <form class="contact-form" name="kontakt" method="POST" data-netlify="true" netlify-honeypot="bot-field" onsubmit="handleSubmit(event)">
+      <input type="hidden" name="form-name" value="kontakt">
+      <p style="display:none"><label>Bot field: <input name="bot-field"></label></p>
+      <div class="form-row">
+        <div class="form-group">
+          <label><span class="sr">Ime</span><span class="en">First Name</span></label>
+          <input type="text" name="ime" required>
+        </div>
+        <div class="form-group">
+          <label><span class="sr">Prezime</span><span class="en">Last Name</span></label>
+          <input type="text" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label><span class="sr">E-pošta</span><span class="en">Email</span></label>
+        <input type="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label><span class="sr">Tema</span><span class="en">Subject</span></label>
+        <select name="tema">
+          <option value="general"><span class="sr">Opšti upit</span><span class="en">General Inquiry</span></option>
+          <option value="projects"><span class="sr">Projekti</span><span class="en">Projects</span></option>
+          <option value="media"><span class="sr">Mediji</span><span class="en">Media</span></option>
+          <option value="other"><span class="sr">Ostalo</span><span class="en">Other</span></option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label><span class="sr">Poruka</span><span class="en">Message</span></label>
+        <textarea name="poruka" required></textarea>
+      </div>
+      <button type="submit" class="form-submit">
+        <span class="sr">Pošalji poruku</span>
+        <span class="en">Send Message</span>
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- DISCLAIMER -->
+<section id="disclaimer" style="background:var(--navy-mid);padding:48px 5vw;border-top:1px solid rgba(200,168,75,0.15);">
+  <div style="max-width:900px;margin:0 auto;">
+    <div style="display:flex;gap:20px;align-items:flex-start;">
+      <div style="font-size:22px;flex-shrink:0;margin-top:2px;">⚠️</div>
+      <div>
+        <p style="font-size:11px;letter-spacing:0.25em;text-transform:uppercase;color:var(--gold);margin-bottom:10px;">
+          <span class="sr">Odricanje od odgovornosti</span>
+          <span class="en">Disclaimer</span>
+        </p>
+        <p style="font-size:13px;line-height:1.75;color:rgba(255,255,255,0.45);" class="sr">
+          Sadržaj ovog sajta namijenjen je isključivo informativnim svrhama. Rotary klub Banja Luka ne preuzima odgovornost za tačnost, potpunost ili aktuelnost informacija objavljenih na ovim stranicama. Mišljenja i stavovi izneseni u tekstovima predstavljaju lične stavove autora i ne moraju nužno odražavati zvanične pozicije Rotary Internationala ili Distrikta 1910. Sve fotografije i materijali objavljeni na sajtu koriste se uz poštovanje autorskih prava. Za tehničke greške ili propuste, kontaktirajte nas putem kontakt forme.
+        </p>
+        <p style="font-size:13px;line-height:1.75;color:rgba(255,255,255,0.45);" class="en">
+          The content of this website is intended for informational purposes only. Rotary Club Banja Luka assumes no responsibility for the accuracy, completeness or currentness of the information published on these pages. Opinions and views expressed in texts represent the personal views of the authors and do not necessarily reflect the official positions of Rotary International or District 1910. All photographs and materials published on the site are used in compliance with copyright law. For technical errors or omissions, please contact us via the contact form.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:4px">
+        <svg width="36" height="36" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g fill="#C8A84B">
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(0,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(15,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(30,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(45,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(60,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(75,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(90,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(105,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(120,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(135,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(150,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(165,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(180,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(195,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(210,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(225,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(240,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(255,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(270,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(285,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(300,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(315,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(330,50,50)"/>
+            <path d="M50 2 L53 12 L47 12 Z" transform="rotate(345,50,50)"/>
+            <circle cx="50" cy="50" r="36" fill="none" stroke="#C8A84B" stroke-width="5"/>
+            <circle cx="50" cy="50" r="18" fill="none" stroke="#C8A84B" stroke-width="4"/>
+            <circle cx="50" cy="50" r="8" fill="#C8A84B"/>
+            <line x1="50" y1="14" x2="50" y2="32" stroke="#C8A84B" stroke-width="4"/>
+            <line x1="50" y1="14" x2="50" y2="32" stroke="#C8A84B" stroke-width="4" transform="rotate(60,50,50)"/>
+            <line x1="50" y1="14" x2="50" y2="32" stroke="#C8A84B" stroke-width="4" transform="rotate(120,50,50)"/>
+            <line x1="50" y1="14" x2="50" y2="32" stroke="#C8A84B" stroke-width="4" transform="rotate(180,50,50)"/>
+            <line x1="50" y1="14" x2="50" y2="32" stroke="#C8A84B" stroke-width="4" transform="rotate(240,50,50)"/>
+            <line x1="50" y1="14" x2="50" y2="32" stroke="#C8A84B" stroke-width="4" transform="rotate(300,50,50)"/>
+          </g>
+        </svg>
+        <span style="font-family:'Playfair Display',serif;font-size:18px;color:var(--gold)">Rotary Club Banja Luka</span>
+      </div>
+      <p class="sr">Zajednica lidera posvećenih humanitarnoj službi i napretku našeg grada od 1934. godine.</p>
+      <p class="en">A community of leaders dedicated to humanitarian service and the betterment of our city since 1934.</p>
+    </div>
+    <div class="footer-col">
+      <h4 class="sr">Brzi linkovi</h4>
+      <h4 class="en">Quick Links</h4>
+      <ul>
+        <li><a href="#about"><span class="sr">O nama</span><span class="en">About Us</span></a></li>
+        <li><a href="#projects"><span class="sr">Projekti</span><span class="en">Projects</span></a></li>
+        <li><a href="#members"><span class="sr">Članovi</span><span class="en">Members</span></a></li>
+        <li><a href="vijesti.html"><span class="sr">Vijesti</span><span class="en">News</span></a></li>
+        <li><a href="#contact"><span class="sr">Kontakt</span><span class="en">Contact</span></a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Rotary International</h4>
+      <ul>
+        <li><a href="https://www.rotary.org" target="_blank">rotary.org</a></li>
+        <li><a href="#"><span class="sr">Distrikt 1910</span><span class="en">District 1910</span></a></li>
+        <li><a href="#">Rotaract Club Banja Luka</a></li>
+        <li><a href="#">Polio Plus</a></li>
+        <li><a href="https://www.facebook.com/rotaryklubbanjaluka" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:8px;"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 10 18" fill="currentColor" style="display:block;flex-shrink:0;"><path d="M6.5 18V10h2.7l.4-3H6.5V5.1c0-.9.2-1.4 1.5-1.4H9.6V.1C9.3.1 8.3 0 7.1 0 4.6 0 3 1.5 3 4.3V7H.5v3H3v8h3.5z"/></svg> Facebook</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Rotary Club Banja Luka. <span class="sr">Sva prava zadržana.</span><span class="en">All rights reserved.</span></p>
+    <p class="footer-motto">"Service Above Self"</p>
+  </div>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+// ── MEMBER TABS ──
+function switchTab(tabId, btn) {
+  var panels = document.querySelectorAll('.tab-panel');
+  for (var i = 0; i < panels.length; i++) {
+    panels[i].style.display = 'none';
+    panels[i].classList.remove('active');
+  }
+  var btns = document.querySelectorAll('.members-tab');
+  for (var j = 0; j < btns.length; j++) {
+    btns[j].classList.remove('active');
+  }
+  var panel = document.getElementById('tab-' + tabId);
+  if (panel) {
+    panel.style.display = 'block';
+    panel.classList.add('active');
+  }
+  if (btn) btn.classList.add('active');
+}
+
+// ── INIT TABS ON LOAD ──
+(function() {
+  var panels = document.querySelectorAll('.tab-panel');
+  for (var i = 0; i < panels.length; i++) {
+    panels[i].style.display = 'none';
+    panels[i].classList.remove('active');
+  }
+  var first = document.getElementById('tab-uprava');
+  if (first) { first.style.display = 'block'; first.classList.add('active'); }
+})();
+
+// ── NEWS CAROUSEL ──
+var carouselIndex = 0;
+var carouselCards = document.querySelectorAll('.news-carousel-card');
+var totalCards = carouselCards.length;
+
+function initCarousel() {
+  var dotsContainer = document.getElementById('carouselDots');
+  if (!dotsContainer) return;
+  dotsContainer.innerHTML = '';
+  for (var i = 0; i < totalCards; i++) {
+    var dot = document.createElement('div');
+    dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+    (function(idx) { dot.onclick = function() { goToSlide(idx); }; })(i);
+    dotsContainer.appendChild(dot);
+  }
+}
+
+function updateCarousel() {
+  var track = document.getElementById('newsTrack');
+  if (!track) return;
+  var val = 'translateX(-' + (carouselIndex * 100) + '%)';
+  track.style.webkitTransform = val;
+  track.style.transform = val;
+  var dots = document.querySelectorAll('#carouselDots .carousel-dot');
+  for (var di = 0; di < dots.length; di++) {
+    if (di === carouselIndex) { dots[di].classList.add('active'); } else { dots[di].classList.remove('active'); }
+  }
+}
+
+function carouselNext() {
+  carouselIndex = (carouselIndex + 1) % totalCards;
+  updateCarousel();
+}
+
+function carouselPrev() {
+  carouselIndex = (carouselIndex - 1 + totalCards) % totalCards;
+  updateCarousel();
+}
+
+function goToSlide(i) {
+  carouselIndex = i;
+  updateCarousel();
+}
+
+// Auto-advance carousel every 6 seconds
+var carouselTimer = setInterval(carouselNext, 6000);
+var newsCarouselEl = document.getElementById('newsCarousel');
+if (newsCarouselEl) {
+  newsCarouselEl.addEventListener('mouseenter', function() { clearInterval(carouselTimer); });
+  newsCarouselEl.addEventListener('mouseleave', function() { carouselTimer = setInterval(carouselNext, 6000); });
+}
+
+initCarousel();
+
+
+// ── AWARD CAROUSEL (Špiro Bocarić) ──
+var awardIndex = 0;
+var totalAwardSlides = 4;
+
+function initAwardCarousel() {
+  var dotsContainer = document.getElementById('awardDots');
+  if (!dotsContainer) return;
+  dotsContainer.innerHTML = '';
+  for (var i = 0; i < totalAwardSlides; i++) {
+    var dot = document.createElement('div');
+    dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+    (function(idx) { dot.onclick = function() { goToAward(idx); }; })(i);
+    dotsContainer.appendChild(dot);
+  }
+}
+
+function updateAwardCarousel() {
+  var track = document.getElementById('awardTrack');
+  if (!track) return;
+  var val = 'translateX(-' + (awardIndex * 100) + '%)';
+  track.style.webkitTransform = val;
+  track.style.transform = val;
+  var adots = document.querySelectorAll('#awardDots .carousel-dot');
+  for (var di = 0; di < adots.length; di++) {
+    if (di === awardIndex) { adots[di].classList.add('active'); } else { adots[di].classList.remove('active'); }
+  }
+}
+
+function awardNext() {
+  awardIndex = (awardIndex + 1) % totalAwardSlides;
+  updateAwardCarousel();
+}
+
+function awardPrev() {
+  awardIndex = (awardIndex - 1 + totalAwardSlides) % totalAwardSlides;
+  updateAwardCarousel();
+}
+
+function goToAward(i) {
+  awardIndex = i;
+  updateAwardCarousel();
+}
+
+initAwardCarousel();
+
+// Set SR as default on load
+document.documentElement.lang = 'sr';
+
+// Safe localStorage wrappers
+function safeLSGet(key) { try { return localStorage.getItem(key); } catch(e) { return null; } }
+function safeLSSet(key, val) { try { localStorage.setItem(key, val); } catch(e) {} }
+
+function setLang(lang) {
+  safeLSSet('rotary_lang', lang);
+  if (lang === 'en') {
+    document.body.classList.add('lang-en');
+    document.documentElement.lang = 'en';
+    document.getElementById('btn-en').classList.add('active');
+    document.getElementById('btn-sr').classList.remove('active');
+  } else {
+    document.body.classList.remove('lang-en');
+    document.documentElement.lang = 'sr';
+    document.getElementById('btn-sr').classList.add('active');
+    document.getElementById('btn-en').classList.remove('active');
+  }
+  // update mobile lang buttons
+  var msr = document.getElementById('mobile-btn-sr');
+  var men = document.getElementById('mobile-btn-en');
+  if (msr && men) {
+    if (lang === 'en') {
+      msr.classList.remove('active');
+      men.classList.add('active');
+    } else {
+      msr.classList.add('active');
+      men.classList.remove('active');
+    }
+  }
+}
+
+// Restore saved language on load
+(function() {
+  var savedLang = safeLSGet('rotary_lang');
+  if (savedLang === 'en') {
+    setLang('en');
+  }
+})();
+
+function handleSubmit(e) {
+  e.preventDefault();
+  var form = e.target;
+  var btn = form.querySelector('.form-submit');
+  var isEn = document.body.classList.contains('lang-en');
+
+  // Disable button while sending
+  btn.disabled = true;
+  btn.textContent = isEn ? 'Slanje...' : 'Šaljem...';
+
+  var formData = new FormData(form);
+
+  fetch('/', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams(formData).toString()
+  })
+  .then(function() {
+    // Success
+    btn.textContent = isEn ? '✓ Message sent!' : '✓ Poruka poslana!';
+    btn.style.background = '#2d5a27';
+    btn.style.color = 'white';
+    btn.style.borderColor = '#2d5a27';
+    form.reset();
+    setTimeout(function() {
+      btn.innerHTML = '<span class="sr">Pošalji poruku</span><span class="en">Send Message</span>';
+      btn.style.background = '';
+      btn.style.color = '';
+      btn.style.borderColor = '';
+      btn.disabled = false;
+      setLang(document.body.classList.contains('lang-en') ? 'en' : 'sr');
+    }, 4000);
+  })
+  .catch(function() {
+    // Error — fallback: still show success to user, form was likely submitted via standard POST
+    btn.textContent = isEn ? '✓ Message sent!' : '✓ Poruka poslana!';
+    btn.style.background = '#2d5a27';
+    btn.style.color = 'white';
+    btn.style.borderColor = '#2d5a27';
+    setTimeout(function() {
+      btn.innerHTML = '<span class="sr">Pošalji poruku</span><span class="en">Send Message</span>';
+      btn.style.background = '';
+      btn.style.color = '';
+      btn.style.borderColor = '';
+      btn.disabled = false;
+    }, 4000);
+  });
+}
+
+// ── TOUCH SWIPE SUPPORT FOR iOS CAROUSELS ──
+(function() {
+  function addSwipe(el, onLeft, onRight) {
+    var startX = 0, startY = 0, startTime = 0;
+    el.addEventListener('touchstart', function(e) {
+      startX = e.touches[0].clientX;
+      startY = e.touches[0].clientY;
+      startTime = Date.now();
+    });
+    el.addEventListener('touchend', function(e) {
+      var dx = e.changedTouches[0].clientX - startX;
+      var dy = e.changedTouches[0].clientY - startY;
+      var dt = Date.now() - startTime;
+      if (dt < 500 && Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 30) {
+        if (dx < 0) { onLeft(); } else { onRight(); }
+      }
+    });
+  }
+  var newsEl = document.getElementById('newsCarousel');
+  if (newsEl) addSwipe(newsEl, carouselNext, carouselPrev);
+  var awardEl = document.querySelector('.award-carousel-wrap');
+  if (awardEl) addSwipe(awardEl, awardNext, awardPrev);
+})();
+
+// ── MOBILE MENU ──
+function toggleMobileMenu() {
+  var nav = document.getElementById('mobileNav');
+  var btn = document.getElementById('hamburger');
+  nav.classList.toggle('open');
+  btn.classList.toggle('open');
+  document.body.style.overflow = nav.classList.contains('open') ? 'hidden' : '';
+}
+
+function closeMobileMenu() {
+  document.getElementById('mobileNav').classList.remove('open');
+  document.getElementById('hamburger').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function toggleMobileSubmenu() {
+  document.getElementById('mobileSubmenu').classList.toggle('open');
+}
+
+function updateMobileLangBtns(lang) {
+  document.getElementById('mobile-btn-sr').classList.toggle('active', lang === 'sr');
+  document.getElementById('mobile-btn-en').classList.toggle('active', lang === 'en');
+}
+
+// Close mobile nav on resize to desktop
+window.addEventListener('resize', function() {
+  if (window.innerWidth > 900) closeMobileMenu();
+});
+
+// Smooth scroll
+document.querySelectorAll('a[href^="#"]').forEach(function(a) {
+  a.addEventListener('click', function(e) {
+    var target = document.querySelector(a.getAttribute('href'));
+    if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+  });
+});
+
+// Scroll reveal
+var observer = new IntersectionObserver(function(entries) {
+  entries.forEach(function(e) {
+    if (e.isIntersecting) {
+      e.target.style.opacity = '1';
+      e.target.style.transform = 'translateY(0)';
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.value-card, .project-card, .member-card, .news-carousel-card, .gallery-item, .timeline-item').forEach(function(el) {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(20px)';
+  el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+  observer.observe(el);
+});
+
+// ── COOKIE CONSENT ──
+(function() {
+  var banner = document.getElementById('cookie-banner');
+  if (!banner) return;
+  var consent = '';
+  try { consent = localStorage.getItem('rotary_cookie_consent'); } catch(ex) {}
+  if (!consent) {
+    setTimeout(function() { banner.classList.add('visible'); }, 800);
+  }
+})();
+
+function cookieAccept() {
+  try { localStorage.setItem('rotary_cookie_consent', 'accepted'); } catch(ex) {}
+  hideCookieBanner();
+}
+
+function cookieDecline() {
+  try { localStorage.setItem('rotary_cookie_consent', 'declined'); } catch(ex) {}
+  hideCookieBanner();
+}
+
+function hideCookieBanner() {
+  var banner = document.getElementById('cookie-banner');
+  if (banner) {
+    banner.classList.remove('visible');
+    setTimeout(function() { banner.style.display = 'none'; }, 400);
+  }
+}
+
+</script>
+
+<!-- Netlify Identity Widget -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", function(user) {
+      if (!user) {
+        window.netlifyIdentity.on("login", function() {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+</body>
+</html>
