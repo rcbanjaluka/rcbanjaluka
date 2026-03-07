@@ -1,0 +1,8 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "slike"
+public_folder: "/slike"
+
+locale: "sr"
