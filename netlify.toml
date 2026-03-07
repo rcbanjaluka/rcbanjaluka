@@ -1,10 +1,2 @@
----
-ime: "Ana Jovanović"
-uloga_sr: "Predsjednica"
-uloga_en: "President"
-inicijali: "AJ"
-bio_sr: "Doktorica medicine, specijalista interne medicine. Aktivna u projektima zdravstvene zaštite zajednice."
-bio_en: "Medical doctor, specialist in internal medicine. Active in community health protection projects."
-clan_od: 2015
-redoslijed: 1
----
+[build]
+  publish = "."
