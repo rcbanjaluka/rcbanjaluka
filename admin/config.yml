@@ -1,0 +1,108 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "slike"
+public_folder: "/slike"
+
+locale: "sr"
+
+collections:
+  # ── VIJESTI ──
+  - name: "vijesti"
+    label: "Vijesti"
+    label_singular: "Vijest"
+    folder: "content/vijesti"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Naslov (SR)", name: "naslov_sr", widget: "string" }
+      - { label: "Naslov (EN)", name: "naslov_en", widget: "string" }
+      - { label: "Datum", name: "datum", widget: "datetime", format: "YYYY-MM-DD" }
+      - { label: "Emoji ikona", name: "ikona", widget: "string", default: "📰", hint: "Npr: 🌊 🎓 🎉 ❤️" }
+      - { label: "Kratki opis (SR)", name: "opis_sr", widget: "text" }
+      - { label: "Kratki opis (EN)", name: "opis_en", widget: "text" }
+      - { label: "Puni tekst (SR)", name: "tekst_sr", widget: "markdown", required: false }
+      - { label: "Puni tekst (EN)", name: "tekst_en", widget: "markdown", required: false }
+
+  # ── ČLANOVI ──
+  - name: "clanovi"
+    label: "Članovi"
+    label_singular: "Član"
+    folder: "content/clanovi"
+    create: true
+    slug: "{{slug}}"
+    media_folder: "/slike/članovi"
+    public_folder: "/slike/članovi"
+    fields:
+      - { label: "Ime i prezime", name: "ime", widget: "string" }
+      - { label: "Uloga (SR)", name: "uloga_sr", widget: "string", hint: "Npr: Predsjednik, Blagajnik" }
+      - { label: "Uloga (EN)", name: "uloga_en", widget: "string" }
+      - { label: "Inicijali (za avatar)", name: "inicijali", widget: "string", hint: "Npr: AJ, MP" }
+      - { label: "Biografija (SR)", name: "bio_sr", widget: "text" }
+      - { label: "Biografija (EN)", name: "bio_en", widget: "text" }
+      - { label: "Član od (godina)", name: "clan_od", widget: "number" }
+      - { label: "Redoslijed prikaza", name: "redoslijed", widget: "number", default: 99 }
+      - { label: "Fotografija", name: "fotografija", widget: "image", required: false }
+
+  # ── PROJEKTI ──
+  - name: "projekti"
+    label: "Projekti"
+    label_singular: "Projekat"
+    folder: "content/projekti"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Naziv (SR)", name: "naziv_sr", widget: "string" }
+      - { label: "Naziv (EN)", name: "naziv_en", widget: "string" }
+      - { label: "Opis (SR)", name: "opis_sr", widget: "text" }
+      - { label: "Opis (EN)", name: "opis_en", widget: "text" }
+      - { label: "Ikona (emoji)", name: "ikona", widget: "string", default: "🤝" }
+      - { label: "Status (SR)", name: "status_sr", widget: "string", hint: "Npr: Aktivan, Završen" }
+      - { label: "Status (EN)", name: "status_en", widget: "string" }
+      - { label: "Godina početka", name: "godina", widget: "number" }
+      - { label: "Redoslijed prikaza", name: "redoslijed", widget: "number", default: 99 }
+
+  # ── BOČARIĆ / POVELJA ──
+  - name: "nagrade"
+    label: "Nagrade (Bočarić / Povelja)"
+    label_singular: "Nagrada"
+    folder: "content/nagrade"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Ime dobitnika", name: "ime", widget: "string" }
+      - { label: "Naziv nagrade (SR)", name: "nagrada_sr", widget: "string", hint: "Npr: Bočarić, Povelja" }
+      - { label: "Naziv nagrade (EN)", name: "nagrada_en", widget: "string" }
+      - { label: "Godina dodjele", name: "godina", widget: "number" }
+      - { label: "Opis (SR)", name: "opis_sr", widget: "text", required: false }
+      - { label: "Opis (EN)", name: "opis_en", widget: "text", required: false }
+      - { label: "Fotografija", name: "fotografija", widget: "image", required: false }
+
+  # ── POSTAVKE SAJTA ──
+  - name: "postavke"
+    label: "Postavke sajta"
+    files:
+      - name: "kontakt"
+        label: "Kontakt info"
+        file: "content/postavke/kontakt.json"
+        fields:
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Telefon", name: "telefon", widget: "string" }
+          - { label: "Adresa (SR)", name: "adresa_sr", widget: "string" }
+          - { label: "Adresa (EN)", name: "adresa_en", widget: "string" }
+          - { label: "Facebook URL", name: "facebook", widget: "string" }
+      - name: "predsjednik"
+        label: "Pismo predsjednika"
+        file: "content/postavke/predsjednik.md"
+        fields:
+          - { label: "Ime predsjednika", name: "ime", widget: "string" }
+          - { label: "Poruka (SR)", name: "poruka_sr", widget: "markdown" }
+          - { label: "Poruka (EN)", name: "poruka_en", widget: "markdown" }
+          - { label: "Fotografija", name: "fotografija", widget: "image", required: false }
+      - name: "uplate"
+        label: "Informacije o uplatama"
+        file: "content/postavke/uplate.md"
+        fields:
+          - { label: "Tekst (SR)", name: "tekst_sr", widget: "markdown" }
+          - { label: "Tekst (EN)", name: "tekst_en", widget: "markdown" }
