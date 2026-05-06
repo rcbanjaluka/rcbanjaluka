@@ -1,0 +1,13 @@
+{
+  "name": "rotary-club-banja-luka",
+  "version": "1.0.0",
+  "description": "Rotary Club Banja Luka website",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-bundle": "^2.0.0"
+  }
+}
