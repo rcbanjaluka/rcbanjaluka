@@ -1,11 +1,12 @@
-const { EleventyRenderPlugin } = require("@11ty/eleventy");
-
 module.exports = function(eleventyConfig) {
   // Copy static assets
   eleventyConfig.addPassthroughCopy("slike");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("sitemap.xml");
+
+  // Ignore content folder as templates - only use via collections/_data
+  eleventyConfig.ignores.add("content/**");
 
   // Collections
   eleventyConfig.addCollection("clanovi", function(collectionApi) {
@@ -22,7 +23,7 @@ module.exports = function(eleventyConfig) {
       .sort((a, b) => {
         const dateA = new Date(a.data.datum || 0);
         const dateB = new Date(b.data.datum || 0);
-        return dateB - dateA; // newest first
+        return dateB - dateA;
       });
   });
 
@@ -40,10 +41,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("initials", function(name) {
     if (!name) return "?";
     return name.split(" ").map(w => w[0]).join("").toUpperCase().slice(0, 2);
-  });
-
-  eleventyConfig.addFilter("memberRole", function(clanovi, uloga) {
-    return clanovi.filter(c => c.data.uloga_sr === uloga);
   });
 
   return {
