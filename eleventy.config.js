@@ -5,9 +5,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("sitemap.xml");
 
-  // Ignore content folder as templates - only use via collections/_data
-  eleventyConfig.ignores.add("content/**");
-
   // Collections
   eleventyConfig.addCollection("clanovi", function(collectionApi) {
     return collectionApi.getFilteredByGlob("content/clanovi/*.md")
