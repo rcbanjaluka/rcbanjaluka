@@ -1,3 +1,4 @@
+console.log('[TEST] predsjednik.js se izvrsava');
 const fs = require('fs');
 const path = require('path');
 
