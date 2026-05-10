@@ -1,27 +1,38 @@
 ---
-ime: "Darko Stupar"
-poruka_sr: |
+ime: Darko Stupar
+poruka_sr: >
   Dragi posjetioci,
+
 
   Čast mi je i obaveza nalaziti se na čelu grupe ostvarenih i posvećenih ljudi kakvi su članovi Rotari kluba Banja Luka zbog čega ću uložiti svaki napor da tokom svog jednogodišnjeg predsjedavanja naš klub bude još bolji, vidljiviji i uspješniji u služenju zajednici.
 
+
   Dobrodošli na naš zvanični sajt. Nadam se da ćete ovdje pronaći sve što vas zanima – o našim projektima, članovima i aktivnostima. Ako ne pronađete ono što tražite, slobodno nas kontaktirajte neposredno. Svaki vaš upit je dobrodošao. Rotarijanska godina 2025/2026. pred nama je bogata sadržajem. U novembru planiramo naš tradicionalni humanitarni bal, a na Dan rotarijanaca, 23. februara 2026., darovat ćemo bebe rođene tog dana. U maju nas očekuje dodjela Povelje Spiridon Špiro Bocarić.
+
 
   Kao poseban cilj ove godine postavio sam obezbjeđivanje distrikt granta za STEM laboratorije u jednoj ili dvije prigradske škole – jer ulaganje u nauku kod djece je investicija u budućnost našeg grada i zajednice. Uz to, radićemo na privlačenju novih članova, jačanju vidljivosti kluba u zajednici i unapređenju unutrašnje organizacije.
 
+
   Aktuelne vijesti i fotografije pratite i na našoj Facebook stranici.
 
+
   S rotarijanskim pozdravom,
-poruka_en: |
+poruka_en: >
   Dear visitors,
+
 
   It is both an honour and a responsibility to lead a group of accomplished and dedicated individuals such as the members of Rotary Club Banja Luka. I am committed to making every effort to ensure that during my year as president, our club becomes even stronger, more visible, and more impactful in serving our community.
 
+
   Welcome to our official website. I hope you will find everything you are looking for – about our projects, members, and activities. If not, please feel free to contact us directly. Every enquiry is welcome. The Rotary year 2025/2026 ahead of us is full of meaningful events. In November, we are planning our traditional charity ball, and on World Rotary Day, 23 February 2026, we will be gifting babies born on that day. May will bring the presentation of the Spiridon Špiro Bocarić Charter Award.
+
 
   As a special goal for this season, I have taken on securing a district grant for STEM laboratories in one or two suburban schools – because investing in science for children is an investment in the future of our city and community. We are also working on attracting new members, strengthening the club's visibility in the community, and improving our internal organisation.
 
+
   For the latest news and photos, follow us on our Facebook page as well.
 
+
   With warm Rotarian greetings,
+fotografija: /slike/darko-stupar.jpg
 ---
