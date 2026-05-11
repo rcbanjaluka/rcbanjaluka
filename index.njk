@@ -1628,11 +1628,26 @@
       <div style="font-family:'Playfair Display',serif;font-size:120px;color:rgba(200,168,75,0.08);line-height:1;position:absolute;top:16px;left:32px;user-select:none;">"</div>
       <div style="position:relative;z-index:1;">
         {%- if predsjednik %}
-        <div style="font-family:'Playfair Display',serif;font-size:20px;color:var(--gold);font-style:italic;margin-bottom:28px;line-height:1.5;" class="sr">{{ predsjednik.poruka_sr | safe }}</div>
-        <div style="font-family:'Playfair Display',serif;font-size:20px;color:var(--gold);font-style:italic;margin-bottom:28px;line-height:1.5;" class="en">{{ predsjednik.poruka_en | safe }}</div>
+        <!-- SR -->
+        <div class="sr" style="position:relative;">
+          <div id="pismoTextSr" style="font-family:'Playfair Display',serif;font-size:15px;color:var(--gold);font-style:italic;line-height:1.75;max-height:120px;overflow:hidden;transition:max-height 0.5s ease;">
+            <style>#pismoTextSr p{margin:0 0 8px 0;}#pismoTextEn p{margin:0 0 8px 0;}</style>
+            {{ predsjednik.poruka_sr | safe }}
+          </div>
+          <div id="pismoFadeSr" style="position:absolute;bottom:0;left:0;right:0;height:48px;background:linear-gradient(transparent,var(--navy-mid));pointer-events:none;"></div>
+          <button onclick="togglePismo('Sr')" id="pismoBtnSr" style="margin-top:12px;padding:8px 24px;background:transparent;border:1px solid rgba(200,168,75,0.4);color:var(--gold);font-family:'Source Sans 3',sans-serif;font-size:11px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;cursor:pointer;transition:all 0.3s;" onmouseover="this.style.background='rgba(200,168,75,0.1)'" onmouseout="this.style.background='transparent'">PRIKAŽI VIŠE ↓</button>
+        </div>
+        <!-- EN -->
+        <div class="en" style="position:relative;">
+          <div id="pismoTextEn" style="font-family:'Playfair Display',serif;font-size:15px;color:var(--gold);font-style:italic;line-height:1.75;max-height:120px;overflow:hidden;transition:max-height 0.5s ease;">
+            {{ predsjednik.poruka_en | safe }}
+          </div>
+          <div id="pismoFadeEn" style="position:absolute;bottom:0;left:0;right:0;height:48px;background:linear-gradient(transparent,var(--navy-mid));pointer-events:none;"></div>
+          <button onclick="togglePismo('En')" id="pismoBtnEn" style="margin-top:12px;padding:8px 24px;background:transparent;border:1px solid rgba(200,168,75,0.4);color:var(--gold);font-family:'Source Sans 3',sans-serif;font-size:11px;font-weight:600;letter-spacing:0.2em;text-transform:uppercase;cursor:pointer;transition:all 0.3s;" onmouseover="this.style.background='rgba(200,168,75,0.1)'" onmouseout="this.style.background='transparent'">READ MORE ↓</button>
+        </div>
         {%- else %}
-        <p style="font-family:'Playfair Display',serif;font-size:20px;color:var(--gold);font-style:italic;margin-bottom:28px;line-height:1.5;" class="sr">[Ovdje unesite tekst pisma predsjednika kluba]</p>
-        <p style="font-family:'Playfair Display',serif;font-size:20px;color:var(--gold);font-style:italic;margin-bottom:28px;line-height:1.5;" class="en">[Insert the club president's letter here]</p>
+        <p style="font-family:'Playfair Display',serif;font-size:15px;color:var(--gold);font-style:italic;margin-bottom:12px;line-height:1.75;" class="sr">[Ovdje unesite tekst pisma predsjednika kluba]</p>
+        <p style="font-family:'Playfair Display',serif;font-size:15px;color:var(--gold);font-style:italic;margin-bottom:12px;line-height:1.75;" class="en">[Insert the club president's letter here]</p>
         {%- endif %}
         <div style="display:flex;align-items:center;gap:20px;margin-top:36px;padding-top:28px;border-top:1px solid rgba(200,168,75,0.2);">
           {%- if predsjednik and predsjednik.fotografija %}
@@ -2683,6 +2698,22 @@ function toggleGallery(btn) {
   if (document.body.classList.contains('lang-en')) {
     btn.querySelectorAll('.sr').forEach(function(el){el.style.display='none';});
     btn.querySelectorAll('.en').forEach(function(el){el.style.display='inline';});
+  }
+}
+
+function togglePismo(lang) {
+  var text = document.getElementById('pismoText' + lang);
+  var fade = document.getElementById('pismoFade' + lang);
+  var btn = document.getElementById('pismoBtn' + lang);
+  var isCollapsed = text.style.maxHeight !== 'none';
+  if (isCollapsed) {
+    text.style.maxHeight = 'none';
+    fade.style.display = 'none';
+    btn.textContent = lang === 'Sr' ? 'PRIKAŽI MANJE ↑' : 'SHOW LESS ↑';
+  } else {
+    text.style.maxHeight = '120px';
+    fade.style.display = 'block';
+    btn.textContent = lang === 'Sr' ? 'PRIKAŽI VIŠE ↓' : 'READ MORE ↓';
   }
 }
 
