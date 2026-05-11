@@ -5,8 +5,10 @@ function textToHtml(text) {
   if (!text) return '';
   return text
     .trim()
-    .split(/\n\n+/)
-    .map(p => `<p>${p.trim().replace(/\n/g, '<br>')}</p>`)
+    .split(/\n{2,}/)
+    .map(p => p.trim())
+    .filter(p => p.length > 0)
+    .map(p => `<p>${p.replace(/\n/g, '<br>')}</p>`)
     .join('\n');
 }
  
@@ -27,17 +29,19 @@ function parseYamlFrontmatter(raw) {
     const lines = block.split('\n').map(l => l.replace(/^ {2}/, ''));
  
     if (isFolded) {
-      let result = '';
+      // U > formatu, jedan ili više praznih redova = novi paragraf
+      // Spajamo neprazne redove u paragrafe
+      const paragraphs = [];
       let para = [];
       for (const line of lines) {
         if (line.trim() === '') {
-          if (para.length) { result += para.join(' ') + '\n\n'; para = []; }
+          if (para.length) { paragraphs.push(para.join(' ')); para = []; }
         } else {
           para.push(line.trim());
         }
       }
-      if (para.length) result += para.join(' ');
-      data[key] = result.trim();
+      if (para.length) paragraphs.push(para.join(' '));
+      data[key] = paragraphs.join('\n\n');
     } else {
       data[key] = lines.join('\n').trim();
     }
