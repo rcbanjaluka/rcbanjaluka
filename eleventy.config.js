@@ -74,6 +74,7 @@ module.exports = function(eleventyConfig) {
       console.log('[predsjednik] GREŠKA: YAML parsiranje neuspješno');
       return null;
     }
+    console.log('[predsjednik] poruka_sr RAW:', JSON.stringify(data.poruka_sr ? data.poruka_sr.substring(0, 200) : null));
     if (data.poruka_sr) data.poruka_sr = textToHtml(data.poruka_sr);
     if (data.poruka_en) data.poruka_en = textToHtml(data.poruka_en);
     console.log('[predsjednik] Uspješno učitano:', Object.keys(data));
