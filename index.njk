@@ -1730,8 +1730,8 @@
   </div>
 </div>
         <div class="news-body">
-          <div class="news-date sr">{{ vijest.data.datum }}</div>
-          <div class="news-date en">{{ vijest.data.datum }}</div>
+          <div class="news-date sr">{{ vijest.data.datum | datumFormat }}</div>
+          <div class="news-date en">{{ vijest.data.datum | datumFormat }}</div>
           <div class="news-title sr">{{ vijest.data.naslov_sr }}</div>
           <div class="news-title en">{{ vijest.data.naslov_en }}</div>
           <div class="news-excerpt sr">{{ vijest.data.opis_sr }}</div>
