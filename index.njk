@@ -1707,10 +1707,28 @@
 {%- for vijest in collections.vijesti %}
       <div class="news-carousel-card">
         <div class="news-card-photos">
-          <div class="news-card-photo-main">{{ vijest.data.ikona | default("📰") }}</div>
-          <div class="news-card-photo-secondary">📸</div>
-          <div class="news-card-photo-secondary">📸</div>
-        </div>
+  <div class="news-card-photo-main">
+    {%- if vijest.data.fotografija_1 %}
+    <img src="{{ vijest.data.fotografija_1 }}" alt="{{ vijest.data.naslov_sr }}" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;">
+    {%- else %}
+    {{ vijest.data.ikona | default("📰") }}
+    {%- endif %}
+  </div>
+  <div class="news-card-photo-secondary">
+    {%- if vijest.data.fotografija_2 %}
+    <img src="{{ vijest.data.fotografija_2 }}" alt="" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;">
+    {%- else %}
+    📸
+    {%- endif %}
+  </div>
+  <div class="news-card-photo-secondary">
+    {%- if vijest.data.fotografija_3 %}
+    <img src="{{ vijest.data.fotografija_3 }}" alt="" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;">
+    {%- else %}
+    📸
+    {%- endif %}
+  </div>
+</div>
         <div class="news-body">
           <div class="news-date sr">{{ vijest.data.datum }}</div>
           <div class="news-date en">{{ vijest.data.datum }}</div>
