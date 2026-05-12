@@ -109,7 +109,7 @@ module.exports = function(eleventyConfig) {
         const parts = (ime) => (ime || "").trim().split(" ");
         const lastA = parts(a.data.ime).slice(-1)[0] || "";
         const lastB = parts(b.data.ime).slice(-1)[0] || "";
-        return lastA.localeCompare(lastB, 'sr');
+        return lastA.localeCompare(lastB, 'hr', { sensitivity: 'base' });
       });
   });
   eleventyConfig.addCollection("uprava", function(collectionApi) {
