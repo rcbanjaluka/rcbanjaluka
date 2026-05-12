@@ -103,12 +103,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("sitemap.xml");
 
   // Collections
-  eleventyConfig.addCollection("clanovi", function(collectionApi) {
+ eleventyConfig.addCollection("clanovi", function(collectionApi) {
     return collectionApi.getFilteredByGlob("content/clanovi/*.md")
       .sort((a, b) => {
-        const nameA = (a.data.ime || "").toLowerCase();
-        const nameB = (b.data.ime || "").toLowerCase();
-        return nameA.localeCompare(nameB, 'sr');
+        const parts = (ime) => (ime || "").trim().split(" ");
+        const lastA = parts(a.data.ime).slice(-1)[0] || "";
+        const lastB = parts(b.data.ime).slice(-1)[0] || "";
+        return lastA.localeCompare(lastB, 'sr');
       });
   });
   eleventyConfig.addCollection("vijesti", function(collectionApi) {
