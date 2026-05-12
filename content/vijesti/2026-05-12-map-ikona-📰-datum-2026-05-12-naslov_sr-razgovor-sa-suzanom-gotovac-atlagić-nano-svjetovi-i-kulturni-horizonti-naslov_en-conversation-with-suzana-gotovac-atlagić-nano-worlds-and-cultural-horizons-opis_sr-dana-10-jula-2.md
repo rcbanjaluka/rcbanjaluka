@@ -1,6 +1,6 @@
 ---
-naslov_sr: "Razgovor sa Suzanom Gotovac Atlagić: Nano svjetovi i kulturni horizonti"
-naslov_en: "Conversation with Suzana Gotovac Atlagić: Nano Worlds and Cultural Horizons"
+naslov_sr: suzana-gotovac-atlagic.md
+naslov_en: suzana-gotovac-atlagic.md
 datum: 2026-05-12
 ikona: 📰
 opis_sr: 'Dana 10. jula 2025. godine u Muzeju savremene umjetnosti, u
