@@ -112,6 +112,21 @@ module.exports = function(eleventyConfig) {
         return lastA.localeCompare(lastB, 'sr');
       });
   });
+  eleventyConfig.addCollection("uprava", function(collectionApi) {
+    const redosljed = [
+      "Predsjednik 2025–2026",
+      "Zamjenik predsjednika",
+      "Dolazeći predsjednik",
+      "Prethodni predsjednik",
+      "Sekretar",
+      "Blagajnik"
+    ];
+    return collectionApi.getFilteredByGlob("content/clanovi/*.md")
+      .filter(a => redosljed.includes(a.data.uloga_sr))
+      .sort((a, b) => {
+        return redosljed.indexOf(a.data.uloga_sr) - redosljed.indexOf(b.data.uloga_sr);
+      });
+  });
   eleventyConfig.addCollection("vijesti", function(collectionApi) {
     return collectionApi.getFilteredByGlob("content/vijesti/*.md")
       .sort((a, b) => {
