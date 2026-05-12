@@ -1874,24 +1874,21 @@
   </div>
 
   <div id="tab-uprava" class="tab-panel active">
-    <div class="members-grid">
-    {%- for clan in collections.clanovi %}
-    {%- if clan.data.uloga_sr == "Predsjednik 2025–2026" or clan.data.uloga_sr == "Zamjenik predsjednika" or clan.data.uloga_sr == "Dolazeći predsjednik" or clan.data.uloga_sr == "Prethodni predsjednik" or clan.data.uloga_sr == "Sekretar" or clan.data.uloga_sr == "Blagajnik" %}
-    <div class="member-card">
-      <div class="member-avatar" style="position:relative;overflow:hidden;">
-        {%- if clan.data.fotografija %}<img src="{{ clan.data.fotografija }}" alt="{{ clan.data.ime }}" style="width:100%;height:100%;object-fit:cover;object-position:center 15%;position:absolute;inset:0;">{%- endif %}
-        <span>{{ clan.data.ime | initials }}</span>
-      </div>
-      <div class="member-info">
-        <div class="member-name">{{ clan.data.ime }}</div>
-        <div class="member-role sr">{{ clan.data.uloga_sr }}</div>
-        <div class="member-role en">{{ clan.data.uloga_en }}</div>
-      </div>
-    </div>
-    {%- endif %}
-    {%- endfor %}
-    </div>
+   <div class="members-grid">
+{%- for clan in collections.uprava %}
+<div class="member-card">
+  <div class="member-avatar" style="position:relative;overflow:hidden;">
+    {%- if clan.data.fotografija %}<img src="{{ clan.data.fotografija }}" alt="{{ clan.data.ime }}" style="width:100%;height:100%;object-fit:cover;object-position:center 15%;position:absolute;inset:0;">{%- endif %}
+    <span>{{ clan.data.ime | initials }}</span>
   </div>
+  <div class="member-info">
+    <div class="member-name">{{ clan.data.ime }}</div>
+    <div class="member-role sr">{{ clan.data.uloga_sr }}</div>
+    <div class="member-role en">{{ clan.data.uloga_en }}</div>
+  </div>
+</div>
+{%- endfor %}
+</div>
 
   <div id="tab-aktivni" class="tab-panel">
     <p style="font-size:15px;color:var(--text-light);margin-bottom:32px;font-style:italic;" class="sr">Kompletan popis aktivnih članova Rotari kluba Banja Luka (ažurirano mart 2026).</p>
