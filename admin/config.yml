@@ -8,7 +8,6 @@ public_folder: "/slike"
 locale: "sr"
 
 collections:
-  # ── VIJESTI ──
   - name: "vijesti"
     label: "Vijesti"
     label_singular: "Vijest"
@@ -20,11 +19,13 @@ collections:
       - { label: "Naslov (EN)", name: "naslov_en", widget: "string" }
       - { label: "Datum", name: "datum", widget: "datetime", format: "YYYY-MM-DD" }
       - { label: "Emoji ikona", name: "ikona", widget: "string", default: "📰", hint: "Npr: 🌊 🎓 🎉 ❤️" }
+      - { label: "Fotografija 1 (glavna)", name: "fotografija_1", widget: "image", required: false }
+      - { label: "Fotografija 2", name: "fotografija_2", widget: "image", required: false }
+      - { label: "Fotografija 3", name: "fotografija_3", widget: "image", required: false }
       - { label: "Kratki opis (SR)", name: "opis_sr", widget: "text" }
       - { label: "Kratki opis (EN)", name: "opis_en", widget: "text" }
       - { label: "Puni tekst (SR)", name: "tekst_sr", widget: "markdown", required: false }
       - { label: "Puni tekst (EN)", name: "tekst_en", widget: "markdown", required: false }
-
   # ── ČLANOVI ──
   - name: "clanovi"
     label: "Članovi"
