@@ -149,6 +149,14 @@ module.exports = function(eleventyConfig) {
     if (!name) return "?";
     return name.split(" ").map(w => w[0]).join("").toUpperCase().slice(0, 2);
   });
+  eleventyConfig.addFilter("datumFormat", function(datum) {
+  if (!datum) return "";
+  const d = new Date(datum);
+  const dd = String(d.getDate()).padStart(2, '0');
+  const mm = String(d.getMonth() + 1).padStart(2, '0');
+  const yyyy = d.getFullYear();
+  return `${dd}/${mm}/${yyyy}`;
+});
 
   return {
     dir: {
