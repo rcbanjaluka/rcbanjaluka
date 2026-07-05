@@ -1709,8 +1709,7 @@
         <div class="news-card-photos">
   <div class="news-card-photo-main">
     {%- if vijest.data.fotografija_1 %}
-    <img src="{{ vijest.data.fotografija_1 }}" alt="{{ vijest.data.naslov_sr }}" style="width:100%;height:100%;object-fit:contain;object-position:center;position:absolute;inset:0;background:var(--navy);">
-    {%- else %}
+    <img src="{{ vijest.data.fotografija_1 }}" alt="{{ vijest.data.naslov_sr }}" style="width:100%;height:100%;object-fit:cover;object-position:center top;position:absolute;inset:0;">
     {{ vijest.data.ikona | default("📰") }}
     {%- endif %}
   </div>
