@@ -1,1 +1,4 @@
-{"permalink": false}
+{
+  "layout": "vijest.njk",
+  "permalink": "vijesti/{{ page.fileSlug }}/"
+}
