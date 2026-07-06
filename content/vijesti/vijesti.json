@@ -1,4 +1,4 @@
 {
   "layout": "vijest.njk",
-  "permalink": "vijesti/{{ page.fileSlug }}/"
+  "tags": "vijesti"
 }
