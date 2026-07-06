@@ -55,6 +55,8 @@ collections:
       - { label: "Naziv (EN)", name: "naziv_en", widget: "string" }
       - { label: "Opis (SR)", name: "opis_sr", widget: "text" }
       - { label: "Opis (EN)", name: "opis_en", widget: "text" }
+      - { label: "Puni tekst (SR)", name: "tekst_sr", widget: "markdown", required: false }
+      - { label: "Puni tekst (EN)", name: "tekst_en", widget: "markdown", required: false }
       - { label: "Ikona (emoji)", name: "ikona", widget: "string", default: "🤝" }
       - { label: "Status (SR)", name: "status_sr", widget: "string", hint: "Npr: Aktivan, Završen" }
       - { label: "Status (EN)", name: "status_en", widget: "string" }
@@ -75,6 +77,8 @@ collections:
       - { label: "Godina dodjele", name: "godina", widget: "number" }
       - { label: "Opis (SR)", name: "opis_sr", widget: "text", required: false }
       - { label: "Opis (EN)", name: "opis_en", widget: "text", required: false }
+      - { label: "Puni tekst (SR)", name: "tekst_sr", widget: "markdown", required: false }
+      - { label: "Puni tekst (EN)", name: "tekst_en", widget: "markdown", required: false }
       - { label: "Fotografija", name: "fotografija", widget: "image", required: false }
 
   # ── POSTAVKE SAJTA ──
