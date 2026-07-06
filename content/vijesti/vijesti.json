@@ -1,4 +1,3 @@
 {
-  "layout": "vijest.njk",
-  "tags": "vijesti"
+  "layout": "vijest.njk"
 }
