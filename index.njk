@@ -1742,7 +1742,27 @@
     <div class="news-excerpt en">{{ vijest.data.opis_en }}</div>
   </div>
 </div>
+{%- endfor %}
+{%- else %}
+      <div class="news-carousel-card">
+        <div class="news-card-photos"><div class="news-card-photo-main">📰</div><div class="news-card-photo-secondary">📸</div><div class="news-card-photo-secondary">📸</div></div>
+        <div class="news-body">
+          <div class="news-title sr">Vijesti uskoro</div>
+          <div class="news-title en">News coming soon</div>
+        </div>
+      </div>
+{%- endif %}
+    </div><!-- end track -->
+    <div class="news-carousel-controls">
+      <button class="carousel-btn" id="prevBtn" onclick="carouselPrev()">&#8592;</button>
+      <div class="carousel-dots" id="carouselDots"></div>
+      <button class="carousel-btn" id="nextBtn" onclick="carouselNext()">&#8594;</button>
+    </div>
+  </div>
+</section>
 <div class="gold-divider"></div>
+
+<section id="bocaRic">
 
 <section id="bocaRic">
   <div class="section-header">
