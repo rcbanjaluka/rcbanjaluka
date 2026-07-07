@@ -1708,11 +1708,15 @@
       <div class="news-carousel-card">
         <div class="news-card-photos">
   <div class="news-card-photo-main">
-    {%- if vijest.data.fotografija_1 %}
-    <img src="{{ vijest.data.fotografija_1 }}" alt="{{ vijest.data.naslov_sr }}" style="width:100%;height:100%;object-fit:cover;object-position:center top;position:absolute;inset:0;">
-    {{ vijest.data.ikona | default("📰") }}
-    {%- endif %}
-  </div>
+    <a href="/vijesti/{{ vijest.page.fileSlug }}/" style="display:block;">
+<div class="news-card-photo-main">
+  {%- if vijest.data.fotografija_1 %}
+  <img src="{{ vijest.data.fotografija_1 }}" alt="{{ vijest.data.naslov_sr }}" style="width:100%;height:100%;object-fit:cover;object-position:center top;position:absolute;inset:0;">
+  {%- else %}
+  {{ vijest.data.ikona | default("📰") }}
+  {%- endif %}
+</div>
+</a>
   <div class="news-card-photo-secondary">
     {%- if vijest.data.fotografija_2 %}
     <img src="{{ vijest.data.fotografija_2 }}" alt="" style="width:100%;height:100%;object-fit:cover;position:absolute;inset:0;">
