@@ -2082,13 +2082,6 @@ poruka_en: >-
   *Yours in Rotary,*
 
 
-  *A﻿leksandar Sajić*\
-
-  *P﻿resident of RC Banja Luka*\
-
-  *R﻿otarian Year 2026/2027*
-
-
   <!--EndFragment-->
 fotografija: /slike/aleksandar-sajic.jpg
 ---
