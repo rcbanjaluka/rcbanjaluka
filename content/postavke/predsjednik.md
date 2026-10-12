@@ -1382,13 +1382,6 @@ poruka_sr: >-
   <!--StartFragment-->
 
 
-  **Aleksandar Sajić**\
-
-  **Predsjednik Rotary kluba Banja Luka**\
-
-  **Rotarijanska 2026/27. godina**
-
-
   <!--EndFragment-->
 
 
