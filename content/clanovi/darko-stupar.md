@@ -1,7 +1,7 @@
 ---
-ime: "Darko Stupar"
-uloga_sr: "Predsjednik 2025–2026"
-uloga_en: "President 2025–2026"
+ime: Darko Stupar
+uloga_sr: Prethodni predsjednik
+uloga_en: Immediate Past President
 clan_od: 2015
-fotografija: "/slike/članovi/darko-stupar.JPG"
+fotografija: /slike/članovi/darko-stupar.JPG
 ---
