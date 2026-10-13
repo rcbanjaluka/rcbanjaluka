@@ -1,7 +1,7 @@
 ---
-ime: "Siniša Kovačević"
-uloga_sr: "Blagajnik"
-uloga_en: "Treasurer"
+ime: Siniša Kovačević
+uloga_sr: Član
+uloga_en: Member
 clan_od: 2023
-fotografija: "/slike/članovi/sinisa-kovacevic.jpg"
+fotografija: /slike/članovi/sinisa-kovacevic.jpg
 ---
