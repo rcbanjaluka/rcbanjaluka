@@ -109,7 +109,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("uprava", function(collectionApi) {
     const redosljed = [
-      "Predsjednik 2025–2026",
+      "Predsjednik 2026–2027",
       "Zamjenik predsjednika",
       "Dolazeći predsjednik",
       "Prethodni predsjednik",
