@@ -6,10 +6,9 @@ ikona: 🎓
 fotografija_1: /slike/suzana_atlagic_gotovac.jpg
 fotografija_2: ""
 opis_sr: >-
-  Razgovor sa Suzanom Gotovac Atlagić
-
-
-  Dana 10.7.2025. godine je u Muzeju savremene umjetnosti, u organizaciji Rotari kluba Banjaluka, održan izuzetan program pod nazivom „Razgovor sa Suzanom Gotovac Atlagić: Nano svjetovi i kulturni horizonti“.
+  Dana 10.7.2025. godine je u Muzeju savremene umjetnosti, u organizaciji Rotari
+  kluba Banjaluka, održan izuzetan program pod nazivom „Razgovor sa Suzanom
+  Gotovac Atlagić: Nano svjetovi i kulturni horizonti“.
 
 
   Program je otvoren obraćanjem prof. dr Zorana Pejašinovića, istoričara i inicijatora ustanovljavanja plakete „Spiridon Špiro Bocarić“, koji je podsjetio na značaj nagrade i njeno simbolično mjesto u afirmaciji kulture, nauke i društvene odgovornosti u Banjaluci.
